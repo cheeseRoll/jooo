@@ -31,8 +31,36 @@ def token_guesses(name: str) -> list[str]:
     return out
 
 
+def _names_match(candidate: str, board_name: str) -> bool:
+    import difflib
+    a = re.sub(r"[^a-z0-9]", "", candidate.lower())
+    b = re.sub(r"[^a-z0-9]", "", (board_name or "").lower())
+    if not a or not b:
+        return False
+    return a in b or b in a or difflib.SequenceMatcher(None, a, b).ratio() >= 0.75
+
+
+def _board_identity(ats: str, tok: str, data) -> str | None:
+    """Best-effort canonical company name behind a board; None = API offers none."""
+    if ats == "workable":
+        return data.get("name")
+    if ats == "greenhouse":
+        board = get_json(f"https://boards-api.greenhouse.io/v1/boards/{tok}", min_gap=0.3)
+        return (board or {}).get("name")
+    if ats == "smartrecruiters":
+        detail = get_json(f"https://api.smartrecruiters.com/v1/companies/{tok}", min_gap=0.3)
+        if detail and detail.get("name"):
+            return detail["name"]
+        content = data.get("content") or []
+        return (content[0].get("company") or {}).get("name") if content else None
+    if ats == "ashby":
+        return data.get("organizationName") or data.get("name")
+    return None  # lever exposes no account name
+
+
 def probe(name: str) -> tuple[str, str] | None:
-    """Return (ats, token) or None."""
+    """Return (ats, token) or None. A hit must pass identity verification when the
+    API exposes a company name — guessed tokens collide with unrelated companies."""
     for tok in token_guesses(name):
         checks = [
             ("greenhouse", f"https://boards-api.greenhouse.io/v1/boards/{tok}/jobs",
@@ -48,8 +76,15 @@ def probe(name: str) -> tuple[str, str] | None:
         ]
         for ats, url, ok in checks:
             data = get_json(url, min_gap=0.3)
-            if data is not None and ok(data):
-                return ats, tok
+            if data is None or not ok(data):
+                continue
+            identity = _board_identity(ats, tok, data)
+            if identity is not None and not _names_match(name, identity):
+                print(f"     reject {ats}/{tok}: board says '{identity}'", flush=True)
+                continue
+            if identity is None and ats == "lever" and not data:
+                continue  # empty lever board, unverifiable — too weak to keep
+            return ats, tok
     return None
 
 

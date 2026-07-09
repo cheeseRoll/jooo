@@ -117,3 +117,5 @@ Ramp | Late stage | New York
 Brex | Late stage | San Francisco
 Mercury | Series C | San Francisco
 Rippling | Late stage | San Francisco
+
+# probe v2: identity-verified boards
