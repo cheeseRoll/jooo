@@ -1340,9 +1340,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Roku)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "Senior Financial Analyst at Roku's BLR center — solid FP&A craft at a streaming platform; MNC GCC, not a startup.",
+   "resume_tips": "Straightforward keyword-mirror application if interested.",
+   "red_flags": "not a startup; mild seniority stretch"
   },
   "28d94ee3e3de1371": {
    "id": "28d94ee3e3de1371",
@@ -1355,9 +1361,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (o9 Solutions, ~$3.7B valuation)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 60,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "Senior Financial Analyst at o9 Solutions BLR — AI supply-chain planning unicorn (software, still growth-stage DNA); senior-analyst ask is a mild stretch but CA+Big4 is a credible pitch.",
+   "resume_tips": "o9 sells planning software — frame the TWC model as literally building a planning system; mention Power BI and scenario/sensitivity analysis.",
+   "red_flags": "mild seniority stretch"
   },
   "a31be685e5d6b8ad": {
    "id": "a31be685e5d6b8ad",
@@ -1370,9 +1382,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Essentra plc)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 44,
+   "band": "low",
+   "geo_tag": "BLR",
+   "why": "Regional FP&A Manager at Essentra — Manager title at a plastics MNC typically wants 5+ years; low fit for a fresher.",
+   "resume_tips": "",
+   "red_flags": "Manager title stretch; not a startup"
   },
   "3bdaa8a9fdd65418": {
    "id": "3bdaa8a9fdd65418",
@@ -1385,9 +1403,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (SharkNinja)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 52,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "FP&A Analyst at SharkNinja APAC, Singapore — analyst level fits perfectly and SG sponsorship is routine; consumer MNC, not a startup.",
+   "resume_tips": "Consumer-products FP&A = his FMCG variance work; lead with the product-mix margin analysis.",
+   "red_flags": "not a startup"
   }
  },
  "last_run": "2026-07-09"
