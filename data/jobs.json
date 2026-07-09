@@ -12,14 +12,15 @@
    "salary": null,
    "remote": false,
    "stage": "Late stage (IPO-bound)",
-   "status": "scored",
+   "status": "applied",
    "first_seen": "2026-07-09",
    "fit_score": 80,
    "band": "apply_today",
    "geo_tag": "BLR",
    "why": "Meesho BizFin is a CA-heavy team that hires Big-4-trained newly qualified CAs at Deputy Manager — the level maps cleanly to articleship + qualification, and category P&L ownership is his exact profile.",
    "resume_tips": "Lead with 'CA, first attempt (359/600)' + PwC — no rank claims, the first-attempt + Big-4 combination is the pitch. Mirror 'business finance'/'category P&L'; open with the FMCG product-mix variance bullet.",
-   "red_flags": ""
+   "red_flags": "",
+   "applied_on": "2026-07-09"
   },
   "316168ab98b9c563": {
    "id": "316168ab98b9c563",
