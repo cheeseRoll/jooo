@@ -14,6 +14,11 @@ pipeline commits a new `docs/index.html`.
 
 ## Note for the nightly session
 
-Nothing to do here — Pages redeploys on every push to the configured branch.
-If Pages is not yet enabled (URL 404s), publish `docs/index.html` as a Claude
-Artifact as a stopgap and remind Harsh to enable Pages.
+Pages redeploys on every push to the configured branch — nothing to do once enabled.
+
+Until Harsh enables Pages, the dashboard is published as a Claude Artifact at
+**https://claude.ai/code/artifact/d747e32a-644a-479b-98b8-28385caabd16** — after
+rebuilding `docs/index.html`, strip the outer `<html>/<head>/<body>` shell (keep
+`<title>` + `<style>` + body content) and re-publish via the Artifact tool with
+`url` set to that address so the link stays stable. Stop re-publishing once
+Pages is live (check https://cheeseroll.github.io/jooo/).
