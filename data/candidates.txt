@@ -1,0 +1,119 @@
+# name | stage | hq
+Razorpay | Series F | Bengaluru
+CRED | Series F | Bengaluru
+Meesho | Late stage | Bengaluru
+Jupiter | Series C | Bengaluru
+Fi Money | Series C | Bengaluru
+smallcase | Series D | Bengaluru
+Jar | Series B | Bengaluru
+Cashfree Payments | Series C | Bengaluru
+Juspay | Series C | Bengaluru
+Perfios | Series D | Bengaluru
+Signzy | Series B | Bengaluru
+Bureau | Series B | Bengaluru
+KreditBee | Series D | Bengaluru
+Yubi | Series D | Bengaluru
+Navi | Late stage | Bengaluru
+Zolve | Series B | Bengaluru
+Clear | Series C | Bengaluru
+Khatabook | Series C | Bengaluru
+Ninjacart | Series D | Bengaluru
+Jumbotail | Series C | Bengaluru
+Zetwerk | Series F | Bengaluru
+Vegrow | Series C | Bengaluru
+Licious | Series F | Bengaluru
+Curefoods | Series D | Bengaluru
+FreshToHome | Series D | Bengaluru
+Third Wave Coffee | Series C | Bengaluru
+Blue Tokai Coffee Roasters | Series C | Delhi
+Wakefit | Series D | Bengaluru
+Mokobara | Series B | Bengaluru
+Snitch | Series B | Bengaluru
+GIVA | Series B | Bengaluru
+Bluestone | Late stage | Bengaluru
+NoBroker | Series E | Bengaluru
+Porter | Series F | Bengaluru
+Yulu | Series B | Bengaluru
+Ultraviolette | Series D | Bengaluru
+ShareChat | Late stage | Bengaluru
+VerSe Innovation | Late stage | Bengaluru
+Glance | Late stage | Bengaluru
+Scaler | Series B | Bengaluru
+Leap | Series D | Bengaluru
+Postman | Series D | Bengaluru
+Hasura | Series C | Bengaluru
+Zluri | Series B | Bengaluru
+Whatfix | Series E | Bengaluru
+MoEngage | Series E | Bengaluru
+LeadSquared | Series C | Bengaluru
+Exotel | Series D | Bengaluru
+Yellow.ai | Series C | Bengaluru
+Observe.AI | Series C | Bengaluru
+Sprinto | Series B | Bengaluru
+itilite | Series C | Bengaluru
+Locus | Series C | Bengaluru
+Pixxel | Series B | Bengaluru
+Digantara | Series B | Bengaluru
+Krutrim | Series B | Bengaluru
+Plum | Series B | Bengaluru
+Onsurity | Series B | Bengaluru
+PhonePe | Late stage | Bengaluru
+Rapido | Series E | Bengaluru
+Cult.fit | Late stage | Bengaluru
+HealthifyMe | Series C | Bengaluru
+Practo | Series D | Bengaluru
+Shadowfax | Series E | Bengaluru
+Udaan | Series E | Bengaluru
+Captain Fresh | Series D | Bengaluru
+CropIn | Series D | Bengaluru
+Simpl | Series B | Bengaluru
+Groww | Late stage | Bengaluru
+Zepto | Late stage | Mumbai
+Slice | Series C | Bengaluru
+Setu | Series B | Bengaluru
+Hyperface | Series B | Bengaluru
+Zerodha | Bootstrapped-profitable | Bengaluru
+Tabby | Series E | Dubai
+Kitopi | Series C | Dubai
+noon | Late stage | Dubai
+Property Finder | Late stage | Dubai
+Dubizzle Group | Late stage | Dubai
+Sarwa | Series B | Dubai
+Ziina | Series B | Dubai
+Huspy | Series B | Dubai
+Alaan | Series B | Dubai
+Careem | Late stage | Dubai
+Fresha | Series C | London/Dubai
+Foodics | Series C | Riyadh
+Lean Technologies | Series B | Riyadh
+Tamara | Series C | Riyadh
+Calo | Series B | Riyadh
+Aspire | Series C | Singapore
+Nium | Series E | Singapore
+Thunes | Series C | Singapore
+Coda | Late stage | Singapore
+Endowus | Series B | Singapore
+StashAway | Series D | Singapore
+Syfe | Series C | Singapore
+bolttech | Series C | Singapore
+Atome | Series D | Singapore
+Funding Societies | Series C | Singapore
+Carro | Series C | Singapore
+Carousell | Late stage | Singapore
+Ninja Van | Series E | Singapore
+Multiplier | Series B | Singapore
+Airwallex | Series F | Singapore
+Sleek | Series B | Singapore
+Revolut | Late stage | London
+Monzo | Late stage | London
+Checkout.com | Late stage | London
+GoCardless | Series G | London
+Paddle | Series D | London
+Pleo | Series C | London
+Payhawk | Series B | London
+Zilch | Series C | London
+Moniepoint | Series C | London
+Ramp | Late stage | New York
+Brex | Late stage | San Francisco
+Mercury | Series C | San Francisco
+Rippling | Late stage | San Francisco

@@ -1,0 +1,18 @@
+{
+  "$comment": "Schema for data/scores/YYYY-MM-DD.json — an array of these objects, one per scored job. Produced by the nightly Claude session per the rubric in profile/profile.md.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "fit_score", "band", "geo_tag", "why"],
+    "properties": {
+      "id": {"type": "string", "$comment": "job id from data/new_jobs.json"},
+      "fit_score": {"type": "integer", "minimum": 0, "maximum": 100},
+      "band": {"enum": ["apply_today", "apply_this_week", "optional", "low"]},
+      "geo_tag": {"enum": ["BLR", "ABROAD+VISA", "ABROAD?VISA"]},
+      "stage": {"type": "string", "$comment": "e.g. 'Series C (raised $80M, Jan 2026)'"},
+      "why": {"type": "string", "$comment": "2 lines max, specific"},
+      "resume_tips": {"type": "string", "$comment": "wording/emphasis tweaks for this job; never fabricate"},
+      "red_flags": {"type": "string", "$comment": "empty string if none"}
+    }
+  }
+}

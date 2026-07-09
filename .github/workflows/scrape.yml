@@ -1,0 +1,55 @@
+# Raw scraping runs HERE (GitHub runners have open egress; the Claude session's
+# network policy blocks the ATS/job-board hosts). The nightly Claude Routine then
+# pulls the committed data and does scoring/dashboard/tracker.
+name: scrape
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # 20:30 IST nightly
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "scrape | probe (probe rebuilds data/companies.yaml from data/candidates.txt)"
+        default: scrape
+      days:
+        description: "lookback days for search sources"
+        default: "7"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Probe ATS boards
+        if: inputs.mode == 'probe'
+        run: python3 scraper/sources/probe.py --file data/candidates.txt --out data/companies.yaml
+
+      - name: Scrape
+        if: inputs.mode != 'probe'
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: python3 scraper/run.py --days "${{ inputs.days || '7' }}"
+
+      - name: Commit results
+        run: |
+          git config user.name "job-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: ${{ inputs.mode || 'scrape' }} $(date -u +%F)"
+          git push
