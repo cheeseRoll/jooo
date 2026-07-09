@@ -1,16 +1,23 @@
 # Raw scraping runs HERE (GitHub runners have open egress; the Claude session's
 # network policy blocks the ATS/job-board hosts). The nightly Claude Routine then
 # pulls the committed data and does scoring/dashboard/tracker.
+#
+# Mode is auto-decided: no data/companies.yaml yet -> probe (build the watchlist
+# from data/candidates.txt), otherwise scrape. workflow_dispatch can force either.
 name: scrape
 
 on:
   schedule:
     - cron: "0 15 * * *"   # 20:30 IST nightly
+  push:
+    paths:
+      - ".github/workflows/scrape.yml"
+      - "data/candidates.txt"
   workflow_dispatch:
     inputs:
       mode:
-        description: "scrape | probe (probe rebuilds data/companies.yaml from data/candidates.txt)"
-        default: scrape
+        description: "auto | scrape | probe"
+        default: auto
       days:
         description: "lookback days for search sources"
         default: "7"
@@ -33,12 +40,22 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
 
+      - name: Decide mode
+        id: mode
+        run: |
+          MODE="${{ inputs.mode || 'auto' }}"
+          if [ "$MODE" = "auto" ]; then
+            if [ -f data/companies.yaml ]; then MODE=scrape; else MODE=probe; fi
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "running in mode: $MODE"
+
       - name: Probe ATS boards
-        if: inputs.mode == 'probe'
+        if: steps.mode.outputs.mode == 'probe'
         run: python3 scraper/sources/probe.py --file data/candidates.txt --out data/companies.yaml
 
       - name: Scrape
-        if: inputs.mode != 'probe'
+        if: steps.mode.outputs.mode == 'scrape'
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
@@ -50,6 +67,7 @@ jobs:
         run: |
           git config user.name "job-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
+          git pull --rebase
           git add data/
-          git diff --cached --quiet || git commit -m "data: ${{ inputs.mode || 'scrape' }} $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "data: ${{ steps.mode.outputs.mode }} $(date -u +%F)"
           git push
