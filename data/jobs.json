@@ -11,9 +11,15 @@
    "source": "lever",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (IPO-bound)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 82,
+   "band": "apply_today",
+   "geo_tag": "BLR",
+   "why": "Meesho BizFin explicitly recruits Big-4 CAs (their words: rank holders, Big 4, FMCG) — Deputy Manager level maps to CA+3y, and category P&L ownership is his exact profile.",
+   "resume_tips": "State 'CA Final first attempt, 359/600' prominently — this team screens on it. Mirror 'business finance' and 'category P&L' phrasing; lead with the FMCG product-mix variance bullet.",
+   "red_flags": ""
   },
   "316168ab98b9c563": {
    "id": "316168ab98b9c563",
@@ -27,8 +33,9 @@
    "salary": null,
    "remote": false,
    "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "status": "expired",
+   "first_seen": "2026-07-09",
+   "red_flags": "wrong company (ATS token collision) — removed"
   },
   "a6900c9d958e6f40": {
    "id": "a6900c9d958e6f40",
@@ -42,8 +49,9 @@
    "salary": null,
    "remote": false,
    "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "status": "expired",
+   "first_seen": "2026-07-09",
+   "red_flags": "wrong company (ATS token collision) — removed"
   },
   "7337cb2ef468a08a": {
    "id": "7337cb2ef468a08a",
@@ -57,8 +65,9 @@
    "salary": null,
    "remote": false,
    "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "status": "expired",
+   "first_seen": "2026-07-09",
+   "red_flags": "wrong company (ATS token collision) — removed"
   },
   "d86aad56accf00fd": {
    "id": "d86aad56accf00fd",
@@ -71,9 +80,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "InMobi group unicorn",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 68,
+   "band": "apply_this_week",
+   "geo_tag": "BLR",
+   "why": "Lead – Business Finance at Glance — strategy-adjacent finance in a large consumer-AI pivot; 'Lead' title may want 5+ years but CAs with Big 4 pedigree get stretched into it.",
+   "resume_tips": "Emphasize ownership-beyond-designation (led field teams, partner awards) to justify the Lead title; mirror 'business finance'.",
+   "red_flags": "Glance is mid-pivot to AI commerce — ask pointed questions about the lock-screen business's trajectory"
   },
   "0f0f894fd0d1a148": {
    "id": "0f0f894fd0d1a148",
@@ -86,9 +101,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "InMobi group unicorn",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 66,
+   "band": "apply_this_week",
+   "geo_tag": "BLR",
+   "why": "Lead – FP&A at Glance — classic FP&A leadership seat; same pivot caveat as the BizFin role.",
+   "resume_tips": "Mirror 'FP&A' and forecasting language; lead with corporate performance analysis bullet.",
+   "red_flags": "same AI-pivot caveat as Glance BizFin role"
   },
   "2d386657d54e1d83": {
    "id": "2d386657d54e1d83",
@@ -101,9 +122,15 @@
    "source": "lever",
    "salary": null,
    "remote": false,
-   "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series C+ (SaaS, ~$185M raised)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 83,
+   "band": "apply_today",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Finance Analyst at Fresha's Dubai hub — global SaaS marketplace, UAE employment comes with standard visa sponsorship, and the analyst level fits a 3-year CA perfectly.",
+   "resume_tips": "Mirror 'marketplace'/'SaaS metrics' language; lead with variance & margin analysis and the fintech performance-analysis bullet. Mention readiness to relocate immediately.",
+   "red_flags": "listing ~2 months old — verify it's still open"
   },
   "86c540b88d01d567": {
    "id": "86c540b88d01d567",
@@ -116,9 +143,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series C+ (Thunes)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 40,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Thunes SF Business Analyst — right company, but the scraped listing is corrupted and the role/US seat both fit poorly.",
+   "resume_tips": "Their Singapore roles would fit better — watch the board.",
+   "red_flags": "listing scraped badly — verify on site; US sponsorship unlikely"
   },
   "9371d9bb288beead": {
    "id": "9371d9bb288beead",
@@ -131,9 +164,15 @@
    "source": "workable",
    "salary": null,
    "remote": false,
-   "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series C+ (Funding Societies)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 58,
+   "band": "optional",
+   "geo_tag": "ABROAD?VISA",
+   "why": "FP&A Senior Manager at SEA's largest SME lender (Jakarta) — great company stage, but senior title + Indonesia work-permit friction.",
+   "resume_tips": "Fintech lending economics = his listed-fintech analysis; lead with it if applying.",
+   "red_flags": "Indonesia KITAS sponsorship for foreign mid-level finance hires is uncommon"
   },
   "8a391f06f321e880": {
    "id": "8a391f06f321e880",
@@ -146,9 +185,15 @@
    "source": "workable",
    "salary": null,
    "remote": false,
-   "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series C+ (Funding Societies)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 58,
+   "band": "optional",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Same FP&A Senior Manager role, Kuala Lumpur seat — Malaysia EP is more attainable than Indonesia, same seniority stretch.",
+   "resume_tips": "Same as Jakarta listing.",
+   "red_flags": "seniority stretch"
   },
   "58bc1f5a38447f95": {
    "id": "58bc1f5a38447f95",
@@ -161,9 +206,15 @@
    "source": "workable",
    "salary": null,
    "remote": false,
-   "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series C+ (Funding Societies)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Senior Finance Manager Jakarta — controllership-flavored and Indonesia-permit friction.",
+   "resume_tips": "",
+   "red_flags": "controllership; permit friction"
   },
   "8b0ae247d03eda07": {
    "id": "8b0ae247d03eda07",
@@ -176,9 +227,15 @@
    "source": "lever",
    "salary": null,
    "remote": false,
-   "stage": "Series E",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series E (Ninja Van)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 55,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Senior Finance Manager SG at Ninja Van — right company stage, but the JD reads reporting/ops-heavy (SSC oversight) rather than strategic finance.",
+   "resume_tips": "If applying, emphasize process-improvement and review/coordination experience.",
+   "red_flags": "controllership flavor; seniority stretch"
   },
   "169629023e5cb3f3": {
    "id": "169629023e5cb3f3",
@@ -191,9 +248,15 @@
    "source": "ashby",
    "salary": null,
    "remote": false,
-   "stage": "Series F",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series F (Airwallex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 68,
+   "band": "apply_this_week",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Treasury analyst at Airwallex SG — not core FP&A, but treasury at a payments company is strategic (liquidity across 200k businesses); strong brand, EP sponsorship routine.",
+   "resume_tips": "His fintech audit exposure (treasury income sustaining profitability finding) is directly on-point — lead with it.",
+   "red_flags": "treasury ≠ FP&A; check the growth path into strategic finance"
   },
   "0780ca57929635bc": {
    "id": "0780ca57929635bc",
@@ -206,9 +269,15 @@
    "source": "ashby",
    "salary": null,
    "remote": false,
-   "stage": "Series F",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series F (Airwallex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 72,
+   "band": "apply_this_week",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Manager, FP&A Data at Airwallex Singapore — FP&A systems/automation seat where his Python + advanced Excel + AI-workflow experience is a genuine differentiator; SG EP sponsorship is routine.",
+   "resume_tips": "Lead with the AI-assisted validation workflow (70–80% efficiency) and Power BI; frame the TWC model as an example of building reusable planning infrastructure.",
+   "red_flags": ""
   },
   "8e1236e874181f45": {
    "id": "8e1236e874181f45",
@@ -221,9 +290,15 @@
    "source": "ashby",
    "salary": null,
    "remote": false,
-   "stage": "Series F",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series F (Airwallex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 62,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Senior Manager FP&A at Airwallex SG — the strongest-fit team but the most senior title of their three openings; likely wants 6+ years.",
+   "resume_tips": "Apply to the FP&A Data Manager role first; reference this one only if a recruiter engages.",
+   "red_flags": "seniority stretch"
   },
   "2086fc5156b3257b": {
    "id": "2086fc5156b3257b",
@@ -236,9 +311,15 @@
    "source": "ashby",
    "salary": null,
    "remote": false,
-   "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series C (UK BNPL)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 64,
+   "band": "optional",
+   "geo_tag": "ABROAD?VISA",
+   "why": "FP&A Manager at Zilch London — strong role fit at a Series C fintech, but UK Skilled Worker sponsorship from India at this level is competitive, not guaranteed.",
+   "resume_tips": "If applying: UK employers respond to concise, quantified CVs — trim to one page, lead with EBITDA-compression and TWC payback numbers.",
+   "red_flags": "visa sponsorship unconfirmed — ask before investing effort"
   },
   "743be3e8e5fc19dd": {
    "id": "743be3e8e5fc19dd",
@@ -251,9 +332,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Series C",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series C unicorn (Moniepoint)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Financial Planning Analyst at Africa's Moniepoint, Nairobi seat — exciting company, but Kenya relocation is a big swing with unclear sponsorship.",
+   "resume_tips": "",
+   "red_flags": "Nairobi relocation; sponsorship unclear"
   },
   "9a3430478cbd5947": {
    "id": "9a3430478cbd5947",
@@ -266,9 +353,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Finance Associate NY — perfect role fit at a top fintech, but US sponsorship for an India-based fresh CA at associate level is rare.",
+   "resume_tips": "If applying: US CVs are one page, achievement-first; mention CPA-equivalence of CA.",
+   "red_flags": "US visa sponsorship unlikely at this level"
   },
   "a5ab94ca2e544246": {
    "id": "a5ab94ca2e544246",
@@ -281,9 +374,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Finance Associate Vancouver — Canada work permits are more attainable than US but still employer-driven.",
+   "resume_tips": "Same as Brex NY.",
+   "red_flags": "sponsorship unconfirmed"
   },
   "dab3d1188b87184f": {
    "id": "dab3d1188b87184f",
@@ -296,9 +395,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Finance Associate SF — same as NY listing.",
+   "resume_tips": "Same as Brex NY.",
+   "red_flags": "US visa sponsorship unlikely at this level"
   },
   "dff8d0381ca5bdab": {
    "id": "dff8d0381ca5bdab",
@@ -311,9 +416,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Finance Manager Vancouver — manager band likely wants 5-7y US-market experience.",
+   "resume_tips": "",
+   "red_flags": "seniority + sponsorship"
   },
   "2d68f2e9ed6756ca": {
    "id": "2d68f2e9ed6756ca",
@@ -326,9 +437,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Finance Manager SF — same as Vancouver.",
+   "resume_tips": "",
+   "red_flags": "seniority + sponsorship"
   },
   "55d44fe712820aa8": {
    "id": "55d44fe712820aa8",
@@ -341,9 +458,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Finance Manager NY — same as Vancouver.",
+   "resume_tips": "",
+   "red_flags": "seniority + sponsorship"
   },
   "86bed0bf2a1325ef": {
    "id": "86bed0bf2a1325ef",
@@ -356,9 +479,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 45,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Commissions FM Vancouver — niche sales-comp finance.",
+   "resume_tips": "",
+   "red_flags": "niche + sponsorship"
   },
   "e91d4f69252d6cd2": {
    "id": "e91d4f69252d6cd2",
@@ -371,9 +500,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 45,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Commissions FM SF — niche sales-comp finance.",
+   "resume_tips": "",
+   "red_flags": "niche + sponsorship"
   },
   "ceb8092d7f494ab3": {
    "id": "ceb8092d7f494ab3",
@@ -386,9 +521,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 45,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Commissions FM NY — niche sales-comp finance.",
+   "resume_tips": "",
+   "red_flags": "niche + sponsorship"
   },
   "e2ff5e135edf202f": {
    "id": "e2ff5e135edf202f",
@@ -401,9 +542,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 45,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Commissions FM Salt Lake City — niche sales-comp finance.",
+   "resume_tips": "",
+   "red_flags": "niche + sponsorship"
   },
   "83e9e76e978d289b": {
    "id": "83e9e76e978d289b",
@@ -416,9 +563,15 @@
    "source": "greenhouse",
    "salary": null,
    "remote": false,
-   "stage": "Late stage",
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (Brex)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 45,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Brex Commissions FM Seattle — niche sales-comp finance.",
+   "resume_tips": "",
+   "red_flags": "niche + sponsorship"
   },
   "731b2e3c02295915": {
    "id": "731b2e3c02295915",
@@ -431,9 +584,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public MNC (AB InBev)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 52,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "Senior Manager FP&A at AB InBev's BLR GCC — strong FMCG FP&A brand (his FMCG audit maps well) but big-co and a senior title.",
+   "resume_tips": "Lead with the FMCG product-mix variance model — same industry language.",
+   "red_flags": "not a startup; seniority stretch"
   },
   "f39cbf4123cb643c": {
    "id": "f39cbf4123cb643c",
@@ -446,9 +605,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (~$5B quick-commerce)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 76,
+   "band": "apply_this_week",
+   "geo_tag": "BLR",
+   "why": "Zepto Business Finance (Category) — category unit economics at India's most intense growth startup; brutal pace but maximal learning per month.",
+   "resume_tips": "Title says Senior Manager I — position yourself via the CA+Big4 fast-track angle; lead with unit-economics and margin-compression findings, quantify everything.",
+   "red_flags": "seniority stretch (Senior Manager I); expect long hours culture"
   },
   "beedb4f474854f0e": {
    "id": "beedb4f474854f0e",
@@ -461,9 +626,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series D ($103M, Lightspeed; $750M valuation)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 84,
+   "band": "apply_today",
+   "geo_tag": "BLR",
+   "why": "Finance Business Partner at Pocket FM — Series D consumer audio at scale, role is exactly business-partnering: unit economics of content cohorts, creator payouts, market P&Ls. Strong strategy proximity.",
+   "resume_tips": "Emphasize cohort/unit-economics work from the TWC model (cohort cash burn) and product-mix variance analysis from the FMCG engagement — content economics is the same muscle.",
+   "red_flags": ""
   },
   "c354877c14eaa225": {
    "id": "c354877c14eaa225",
@@ -476,9 +647,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Pre-Series A ($5.6M total, Peak XV Surge)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 45,
+   "band": "low",
+   "geo_tag": "BLR",
+   "why": "BiteSpeed FP&A — would be a dream first-finance-hire seat ($5M ARR, growing 40-50%), but it's pre-Series A: below your Series B bar.",
+   "resume_tips": "If you make an exception: this is the highest-ownership role on the list — you'd build finance from zero.",
+   "red_flags": "TOO_EARLY — pre-Series A, your call"
   },
   "a348ca0d89dbdaa6": {
    "id": "a348ca0d89dbdaa6",
@@ -491,9 +668,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public MNC (Samsung-owned)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "HARMAN Associate FP&A — entry-level MNC FP&A in BLR; fine fallback, low learning-velocity for his goal.",
+   "resume_tips": "Straightforward keyword-mirror application.",
+   "red_flags": "not a startup"
   },
   "ed2aa16c8c3adbd1": {
    "id": "ed2aa16c8c3adbd1",
@@ -506,9 +689,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public MNC (Honeywell)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "BLR",
+   "why": "Honeywell GCC Sr Finance Analyst.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "a9082e3c629f23d0": {
    "id": "a9082e3c629f23d0",
@@ -521,9 +710,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Mphasis)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 45,
+   "band": "low",
+   "geo_tag": "BLR",
+   "why": "IT-services financial analyst — corporate finance ops flavor.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "f55f3f3b7545b603": {
    "id": "f55f3f3b7545b603",
@@ -536,9 +731,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Amazon)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 58,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "Amazon GFS FP&A Sr Analyst — solid FP&A craft training at scale; goal-fit low.",
+   "resume_tips": "Same STAR/metrics rewrite as other Amazon roles.",
+   "red_flags": "not a startup"
   },
   "b6fa5003f6fe2b53": {
    "id": "b6fa5003f6fe2b53",
@@ -551,9 +752,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Fluence Energy, NASDAQ)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 55,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "FP&A Analyst at Fluence's BLR center — clean FP&A title in energy storage (growth sector), but a GCC of a US public company.",
+   "resume_tips": "Straightforward FP&A JD — mirror budgeting/forecasting/variance keywords.",
+   "red_flags": "not a startup"
   },
   "990913978c020175": {
    "id": "990913978c020175",
@@ -566,9 +773,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Amazon)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 58,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "Amazon DEX Finance Sr Analyst — same trade-off: brand and rigor vs zero startup exposure.",
+   "resume_tips": "Same as other Amazon roles.",
+   "red_flags": "not a startup"
   },
   "454e6c8bfb62250e": {
    "id": "454e6c8bfb62250e",
@@ -581,9 +794,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (JPMorganChase)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 52,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "JPMC FP&A Associate — bank GCC FP&A; rigorous but far from startup strategy.",
+   "resume_tips": "Banks love CA + audit pedigree — straightforward application.",
+   "red_flags": "not a startup"
   },
   "5b6bfc9989aeacb3": {
    "id": "5b6bfc9989aeacb3",
@@ -596,9 +815,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Merged with NESFB — fintech/bank",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 74,
+   "band": "apply_this_week",
+   "geo_tag": "BLR",
+   "why": "slice Business Finance Executive — junior-friendly title in a fintech-turned-bank; banking finance depth plus startup speed, good CA fit.",
+   "resume_tips": "Highlight the listed-fintech performance analysis (EBITDA compression finding) — directly relevant to a lending book's economics.",
+   "red_flags": ""
   },
   "3a3cdf1733c300f5": {
    "id": "3a3cdf1733c300f5",
@@ -611,9 +836,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Flipkart-owned OTA",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 70,
+   "band": "apply_this_week",
+   "geo_tag": "BLR",
+   "why": "Business Finance Manager at Cleartrip — real BizFin ownership in a scaled consumer travel business; Flipkart backing means stability, less scrappy than indie startups.",
+   "resume_tips": "Mirror 'business finance' phrasing; the railway-manufacturing forecasting bullet (leading indicators) plays well for travel demand planning.",
+   "red_flags": ""
   },
   "de7ae62676dd63b3": {
    "id": "de7ae62676dd63b3",
@@ -626,9 +857,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Amazon)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 60,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "Amazon IN Stores BizOps Finance — the most business-facing of the Amazon listings; world-class FP&A training, but big-co process, not startup exposure.",
+   "resume_tips": "Amazon screens on ownership + metrics: rewrite bullets in STAR form with numbers first.",
+   "red_flags": "not a startup"
   },
   "6548255bb0895a53": {
    "id": "6548255bb0895a53",
@@ -641,9 +878,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Large private conglomerate (ETG)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "Manager FP&A at ETG (global agri-commodity group) — Manager title at 3y is interesting, but commodity conglomerate ≠ startup strategy.",
+   "resume_tips": "Commodity businesses = margin/variance obsession; lead with variance modeling.",
+   "red_flags": "not a startup"
   },
   "e7c81f4b815b4612": {
    "id": "e7c81f4b815b4612",
@@ -656,9 +899,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Late stage (IPO-bound)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 82,
+   "band": "apply_today",
+   "geo_tag": "BLR",
+   "why": "Same Meesho Deputy Manager BizFin role as the Lever listing (reposted on LinkedIn Jul 2 — actively hiring). Apply via the Lever link.",
+   "resume_tips": "See the Lever listing entry.",
+   "red_flags": "duplicate of ATS listing"
   },
   "e044ca128f39fc6f": {
    "id": "e044ca128f39fc6f",
@@ -671,9 +920,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (JPMorganChase)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "JPMC FP&A Analyst — junior version of the Associate seat.",
+   "resume_tips": "Same as JPMC Associate.",
+   "red_flags": "not a startup"
   },
   "f6f9f7b01b5d60e9": {
    "id": "f6f9f7b01b5d60e9",
@@ -686,9 +941,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Amazon)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 42,
+   "band": "low",
+   "geo_tag": "BLR",
+   "why": "Financial Operations Accounting Analysis — accounting-ops, not FP&A/strategy.",
+   "resume_tips": "",
+   "red_flags": "accounting-ops flavor"
   },
   "cc7ea8d15d62c180": {
    "id": "cc7ea8d15d62c180",
@@ -701,9 +962,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Incorporated Aug 2025, ₹1L paid-up",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 40,
+   "band": "low",
+   "geo_tag": "BLR",
+   "why": "Inertialabs 'Finance Manager' — 8-month-old two-director company; far too early and unverifiable.",
+   "resume_tips": "",
+   "red_flags": "TOO_EARLY — effectively pre-seed shell"
   },
   "6b43ab081969c272": {
    "id": "6b43ab081969c272",
@@ -716,9 +983,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Series C ($39.4M, Jul 2024; $73M total)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 85,
+   "band": "apply_today",
+   "geo_tag": "BLR",
+   "why": "Level AI (LLM contact-center intelligence) hiring a Finance Manager in Bengaluru — likely the first/early India finance seat for a US Series C startup, meaning real ownership of models, reporting and board inputs.",
+   "resume_tips": "Lead with the TWC model and the PwC AI-automation workflow (70–80% time cut) — an AI company will notice. Mirror 'FP&A' and 'financial modelling' phrasing from the JD.",
+   "red_flags": ""
   },
   "548d5615c3ccacfb": {
    "id": "548d5615c3ccacfb",
@@ -731,9 +1004,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "n/a (recruitment agency)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 38,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Agency-posted fixed-income analyst role — wrong specialization and no company named.",
+   "resume_tips": "",
+   "red_flags": "agency listing; fixed income ≠ FP&A"
   },
   "8a54c184ade48ced": {
    "id": "8a54c184ade48ced",
@@ -746,9 +1025,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Established services firm (Dubai)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 52,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Senior Financial Analyst at Asteco (UAE property services) — solid analyst seat with standard UAE sponsorship, zero startup DNA.",
+   "resume_tips": "Real-estate economics ≈ his railway lease/premises forecasting bullet.",
+   "red_flags": "not a startup"
   },
   "d1165fc9f464f1ad": {
    "id": "d1165fc9f464f1ad",
@@ -761,9 +1046,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "n/a (agency for RAK employer)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Regional FP&A Analyst in Ras al-Khaimah via Antal — real FP&A scope, but agency-mediated and employer unnamed.",
+   "resume_tips": "Ask the recruiter who the employer is before sending documents.",
+   "red_flags": "agency listing"
   },
   "457a6e2ab8e8094e": {
    "id": "457a6e2ab8e8094e",
@@ -776,9 +1067,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "n/a (confidential)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 40,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "'Confidential Jobs' Abu Dhabi outsource analyst — opaque listing.",
+   "resume_tips": "",
+   "red_flags": "confidential/agency listing"
   },
   "97dfe25dd4844949": {
    "id": "97dfe25dd4844949",
@@ -791,9 +1088,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "unknown — research before applying",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 55,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Senior Finance Analyst in Dubai at 'Senna' — UAE visa comes standard, but the company is obscure; verify what it is before spending effort.",
+   "resume_tips": "Hold until company checks out.",
+   "red_flags": "company unverifiable from listing"
   },
   "2aaf1bb018c65a0a": {
    "id": "2aaf1bb018c65a0a",
@@ -806,9 +1109,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Private conglomerate (Dubai)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 55,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Financial Planning & Reporting Manager at Matar Holding — real FP&A ownership in a Dubai family group; stable but not a startup.",
+   "resume_tips": "Conglomerates value Big-4 polish — lead with PwC and Ind AS/reporting depth.",
+   "red_flags": "family-office culture varies wildly — probe in interview"
   },
   "9952bbb9d0ec86cf": {
    "id": "9952bbb9d0ec86cf",
@@ -821,9 +1130,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (FedEx)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "FedEx regional FP&A SG — MNC logistics FP&A.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "a5a3fef248ee57fa": {
    "id": "a5a3fef248ee57fa",
@@ -836,9 +1151,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Dassault Systèmes)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "MNC software FP&A analyst SG.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "5b4d7af388c2d533": {
    "id": "5b4d7af388c2d533",
@@ -851,9 +1172,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Private MNC (Dyson)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Dyson SG Senior Finance Analyst — consumer-hardware MNC.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "77b6b9d9bdea1349": {
    "id": "77b6b9d9bdea1349",
@@ -866,9 +1193,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public MNC (RTX)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 46,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Aerospace MNC financial analyst SG.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "2b3d0af96bbf32b5": {
    "id": "2b3d0af96bbf32b5",
@@ -881,9 +1214,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public MNC (Valvoline)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "APAC FP&A at Valvoline SG — MNC.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "fc0b7d17e818e875": {
    "id": "fc0b7d17e818e875",
@@ -896,9 +1235,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Sea Group)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 60,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Shopee regional financial planning — huge-scale e-commerce FP&A in SG; public company but still growth-tech DNA.",
+   "resume_tips": "Emphasize cross-border/category analysis and variance modeling.",
+   "red_flags": ""
   },
   "380ea8590b547ace": {
    "id": "380ea8590b547ace",
@@ -911,9 +1256,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Amazon)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 52,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Amazon Data Center Finance SG — infra finance at scale; fine craft, low goal-fit.",
+   "resume_tips": "Same Amazon STAR guidance.",
+   "red_flags": "not a startup"
   },
   "2653721bda424efd": {
    "id": "2653721bda424efd",
@@ -926,9 +1277,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Yinson, Malaysia)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 46,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Energy-infra FP&A senior associate SG.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "0faf645697c0cd73": {
    "id": "0faf645697c0cd73",
@@ -941,9 +1298,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Netflix)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 42,
+   "band": "low",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Senior Manager Finance & Strategy at Netflix SG — dream team, but Sr Manager at Netflix means 10+ years; not now.",
+   "resume_tips": "Bookmark the team; revisit in 5 years.",
+   "red_flags": "seniority far above 3y"
   },
   "158e8d225aee595d": {
    "id": "158e8d225aee595d",
@@ -956,9 +1319,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Google)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 62,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Business Finance Analyst at Google Singapore — elite brand and analytics-heavy finance, though a giant company teaches process, not startup-building.",
+   "resume_tips": "Google screens on analytical horsepower: quantify everything, mention Python/SQL (CS50) and Power BI explicitly.",
+   "red_flags": "not a startup — weigh against the goal of learning how startups operate"
   }
  },
  "last_run": "2026-07-09"

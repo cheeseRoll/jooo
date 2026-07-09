@@ -20,11 +20,6 @@ companies:
     token: jupiter
     stage: Series C
     hq: Bengaluru
-  - name: Fi Money
-    ats: lever
-    token: fi
-    stage: Series C
-    hq: Bengaluru
   - name: smallcase
     ats: workable
     token: smallcase
@@ -64,11 +59,6 @@ companies:
     ats: ashby
     token: navi
     stage: Late stage
-    hq: Bengaluru
-  - name: Clear
-    ats: greenhouse
-    token: clear
-    stage: Series C
     hq: Bengaluru
   - name: Khatabook
     ats: workable
@@ -453,3 +443,5 @@ companies:
 #   Foodics
 #   Calo
 #   Endowus
+#   Fi Money (lever/fi is a different company — pet wearables NY)
+#   Clear / ClearTax (greenhouse/clear is CLEAR identity co NY)
