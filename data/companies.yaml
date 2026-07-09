@@ -21,8 +21,8 @@ companies:
     stage: Series C
     hq: Bengaluru
   - name: Fi Money
-    ats: smartrecruiters
-    token: fimoney
+    ats: lever
+    token: fi
     stage: Series C
     hq: Bengaluru
   - name: smallcase
@@ -36,19 +36,14 @@ companies:
     stage: Series B
     hq: Bengaluru
   - name: Cashfree Payments
-    ats: smartrecruiters
-    token: cashfreepayments
+    ats: workable
+    token: cashfree-payments
     stage: Series C
     hq: Bengaluru
   - name: Juspay
     ats: workable
     token: juspay
     stage: Series C
-    hq: Bengaluru
-  - name: Perfios
-    ats: smartrecruiters
-    token: perfios
-    stage: Series D
     hq: Bengaluru
   - name: Signzy
     ats: workable
@@ -65,20 +60,10 @@ companies:
     token: kreditbee
     stage: Series D
     hq: Bengaluru
-  - name: Yubi
-    ats: smartrecruiters
-    token: yubi
-    stage: Series D
-    hq: Bengaluru
   - name: Navi
     ats: ashby
     token: navi
     stage: Late stage
-    hq: Bengaluru
-  - name: Zolve
-    ats: smartrecruiters
-    token: zolve
-    stage: Series B
     hq: Bengaluru
   - name: Clear
     ats: greenhouse
@@ -115,46 +100,11 @@ companies:
     token: licious
     stage: Series F
     hq: Bengaluru
-  - name: Curefoods
-    ats: smartrecruiters
-    token: curefoods
-    stage: Series D
-    hq: Bengaluru
-  - name: FreshToHome
-    ats: smartrecruiters
-    token: freshtohome
-    stage: Series D
-    hq: Bengaluru
-  - name: Third Wave Coffee
-    ats: smartrecruiters
-    token: thirdwavecoffee
-    stage: Series C
-    hq: Bengaluru
   - name: Blue Tokai Coffee Roasters
-    ats: smartrecruiters
-    token: bluetokaicoffeeroasters
+    ats: lever
+    token: blue
     stage: Series C
     hq: Delhi
-  - name: Wakefit
-    ats: smartrecruiters
-    token: wakefit
-    stage: Series D
-    hq: Bengaluru
-  - name: Mokobara
-    ats: smartrecruiters
-    token: mokobara
-    stage: Series B
-    hq: Bengaluru
-  - name: Snitch
-    ats: smartrecruiters
-    token: snitch
-    stage: Series B
-    hq: Bengaluru
-  - name: GIVA
-    ats: smartrecruiters
-    token: giva
-    stage: Series B
-    hq: Bengaluru
   - name: Bluestone
     ats: greenhouse
     token: bluestone
@@ -170,24 +120,14 @@ companies:
     token: porter
     stage: Series F
     hq: Bengaluru
-  - name: Yulu
-    ats: smartrecruiters
-    token: yulu
-    stage: Series B
-    hq: Bengaluru
-  - name: Ultraviolette
-    ats: smartrecruiters
-    token: ultraviolette
-    stage: Series D
-    hq: Bengaluru
   - name: ShareChat
     ats: workable
     token: sharechat
     stage: Late stage
     hq: Bengaluru
   - name: VerSe Innovation
-    ats: smartrecruiters
-    token: verseinnovation
+    ats: greenhouse
+    token: verse
     stage: Late stage
     hq: Bengaluru
   - name: Glance
@@ -209,11 +149,6 @@ companies:
     ats: greenhouse
     token: postman
     stage: Series D
-    hq: Bengaluru
-  - name: Hasura
-    ats: smartrecruiters
-    token: hasura
-    stage: Series C
     hq: Bengaluru
   - name: Zluri
     ats: workable
@@ -240,11 +175,6 @@ companies:
     token: exotel
     stage: Series D
     hq: Bengaluru
-  - name: Yellow.ai
-    ats: smartrecruiters
-    token: yellowai
-    stage: Series C
-    hq: Bengaluru
   - name: Observe.AI
     ats: greenhouse
     token: observeai
@@ -255,65 +185,15 @@ companies:
     token: sprinto
     stage: Series B
     hq: Bengaluru
-  - name: itilite
-    ats: smartrecruiters
-    token: itilite
-    stage: Series C
-    hq: Bengaluru
   - name: Locus
     ats: workable
     token: locus
     stage: Series C
     hq: Bengaluru
-  - name: Pixxel
-    ats: smartrecruiters
-    token: pixxel
-    stage: Series B
-    hq: Bengaluru
-  - name: Digantara
-    ats: smartrecruiters
-    token: digantara
-    stage: Series B
-    hq: Bengaluru
-  - name: Krutrim
-    ats: smartrecruiters
-    token: krutrim
-    stage: Series B
-    hq: Bengaluru
-  - name: Plum
-    ats: workable
-    token: plum
-    stage: Series B
-    hq: Bengaluru
-  - name: Onsurity
-    ats: smartrecruiters
-    token: onsurity
-    stage: Series B
-    hq: Bengaluru
   - name: PhonePe
     ats: greenhouse
     token: phonepe
     stage: Late stage
-    hq: Bengaluru
-  - name: Rapido
-    ats: workable
-    token: rapido
-    stage: Series E
-    hq: Bengaluru
-  - name: Cult.fit
-    ats: workable
-    token: cultfit
-    stage: Late stage
-    hq: Bengaluru
-  - name: HealthifyMe
-    ats: workable
-    token: healthifyme
-    stage: Series C
-    hq: Bengaluru
-  - name: Practo
-    ats: workable
-    token: practo
-    stage: Series D
     hq: Bengaluru
   - name: Shadowfax
     ats: workable
@@ -329,16 +209,6 @@ companies:
     ats: smartrecruiters
     token: captainfresh
     stage: Series D
-    hq: Bengaluru
-  - name: CropIn
-    ats: smartrecruiters
-    token: cropin
-    stage: Series D
-    hq: Bengaluru
-  - name: Simpl
-    ats: workable
-    token: simpl
-    stage: Series B
     hq: Bengaluru
   - name: Groww
     ats: greenhouse
@@ -360,21 +230,6 @@ companies:
     token: setu
     stage: Series B
     hq: Bengaluru
-  - name: Hyperface
-    ats: smartrecruiters
-    token: hyperface
-    stage: Series B
-    hq: Bengaluru
-  - name: Zerodha
-    ats: smartrecruiters
-    token: zerodha
-    stage: Bootstrapped-profitable
-    hq: Bengaluru
-  - name: Tabby
-    ats: workable
-    token: tabby
-    stage: Series E
-    hq: Dubai
   - name: Kitopi
     ats: workable
     token: kitopi
@@ -390,29 +245,14 @@ companies:
     token: propertyfinder
     stage: Late stage
     hq: Dubai
-  - name: Dubizzle Group
-    ats: smartrecruiters
-    token: dubizzlegroup
-    stage: Late stage
-    hq: Dubai
-  - name: Sarwa
-    ats: smartrecruiters
-    token: sarwa
-    stage: Series B
-    hq: Dubai
   - name: Ziina
     ats: ashby
     token: ziina
     stage: Series B
     hq: Dubai
   - name: Huspy
-    ats: smartrecruiters
+    ats: workable
     token: huspy
-    stage: Series B
-    hq: Dubai
-  - name: Alaan
-    ats: smartrecruiters
-    token: alaan
     stage: Series B
     hq: Dubai
   - name: Careem
@@ -425,14 +265,9 @@ companies:
     token: fresha
     stage: Series C
     hq: London/Dubai
-  - name: Foodics
-    ats: smartrecruiters
-    token: foodics
-    stage: Series C
-    hq: Riyadh
   - name: Lean Technologies
-    ats: smartrecruiters
-    token: leantechnologies
+    ats: ashby
+    token: lean
     stage: Series B
     hq: Riyadh
   - name: Tamara
@@ -440,13 +275,8 @@ companies:
     token: tamara
     stage: Series C
     hq: Riyadh
-  - name: Calo
-    ats: smartrecruiters
-    token: calo
-    stage: Series B
-    hq: Riyadh
   - name: Aspire
-    ats: smartrecruiters
+    ats: workable
     token: aspire
     stage: Series C
     hq: Singapore
@@ -461,32 +291,27 @@ companies:
     stage: Series C
     hq: Singapore
   - name: Coda
-    ats: smartrecruiters
+    ats: workable
     token: coda
     stage: Late stage
     hq: Singapore
-  - name: Endowus
-    ats: smartrecruiters
-    token: endowus
-    stage: Series B
-    hq: Singapore
   - name: StashAway
-    ats: smartrecruiters
+    ats: workable
     token: stashaway
     stage: Series D
     hq: Singapore
   - name: Syfe
-    ats: smartrecruiters
+    ats: workable
     token: syfe
     stage: Series C
     hq: Singapore
   - name: bolttech
-    ats: smartrecruiters
+    ats: workable
     token: bolttech
     stage: Series C
     hq: Singapore
   - name: Atome
-    ats: smartrecruiters
+    ats: workable
     token: atome
     stage: Series D
     hq: Singapore
@@ -536,8 +361,8 @@ companies:
     stage: Late stage
     hq: London
   - name: Checkout.com
-    ats: smartrecruiters
-    token: checkoutcom
+    ats: workable
+    token: checkout-com
     stage: Late stage
     hq: London
   - name: GoCardless
@@ -590,3 +415,41 @@ companies:
     token: rippling
     stage: Late stage
     hq: San Francisco
+
+# No public ATS board found (likely Darwinbox/Keka/custom — covered
+# via LinkedIn guest + aggregators instead):
+#   Perfios
+#   Yubi
+#   Zolve
+#   Curefoods
+#   FreshToHome
+#   Third Wave Coffee
+#   Wakefit
+#   Mokobara
+#   Snitch
+#   GIVA
+#   Yulu
+#   Ultraviolette
+#   Hasura
+#   Yellow.ai
+#   itilite
+#   Pixxel
+#   Digantara
+#   Krutrim
+#   Plum
+#   Onsurity
+#   Rapido
+#   Cult.fit
+#   HealthifyMe
+#   Practo
+#   CropIn
+#   Simpl
+#   Hyperface
+#   Zerodha
+#   Tabby
+#   Dubizzle Group
+#   Sarwa
+#   Alaan
+#   Foodics
+#   Calo
+#   Endowus
