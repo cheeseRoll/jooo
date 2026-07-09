@@ -4763,9 +4763,15 @@
    "source": "jooble",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-09"
+   "stage": "Public (Cardinal Health)",
+   "status": "scored",
+   "first_seen": "2026-07-09",
+   "fit_score": 50,
+   "band": "optional",
+   "geo_tag": "ABROAD+VISA",
+   "why": "Financial Analyst at Cardinal Health SG — analyst level fits and SG sponsorship is routine; healthcare-distribution MNC, not a startup.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   }
  },
  "last_run": "2026-07-09"
