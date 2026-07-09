@@ -5,8 +5,11 @@ The nightly scoring session reads this file before scoring any job.
 
 ## Who
 
-- **Harsh Belde** — Chartered Accountant (ICAI, May 2026, **CA Final cleared first attempt, 359/600**)
-- Associate 2, Audit & Assurance at **PwC India, Bengaluru** (Aug 2023 – present incl. articleship)
+- **Harsh Belde** — **fresher Chartered Accountant** (ICAI, qualified May 2026; CA Final
+  cleared on the first attempt with 359/600 — **a score, not a rank; never imply
+  rank-holder status**)
+- Associate 2, Audit & Assurance at **PwC India, Bengaluru** since June 2026 (~1 month
+  full-time), after **2 years of audit articleship** at PwC (Aug 2023 – Sept 2025)
 - B.Com (Finance & Accountancy), Christ University
 - Website: harshbelde.netlify.com · LinkedIn: linkedin.com/in/harshbelde
 - Contact: harshbelde3@gmail.com · Bengaluru, India
@@ -24,8 +27,12 @@ The nightly scoring session reads this file before scoring any job.
   validation workflow at PwC cutting processing time 70–80%)
 - Multiple partner-level awards (Young Turk, 2x Change Catalyst, Above & Beyond); operated
   above his designation (led field teams, reviewed juniors)
-- ~3 years of experience equivalent (articleship + associate). **Right level: analyst /
-  senior analyst / associate / manager-track FP&A roles asking 0–4 years.**
+- **2 years articleship + 1 month full-time — pitch him as a newly qualified CA with
+  2 years of Big-4 audit fieldwork, never as an experienced hire.**
+  **Right level: analyst / senior analyst / associate / executive / deputy manager
+  (0–3 year asks). Plain "Manager" at a startup is an acceptable stretch but always
+  ranks below an equivalent analyst/associate seat. Senior Manager / Lead / Head /
+  Director / VP = out.**
 
 ## What he wants (the goal that scoring must serve)
 
@@ -43,7 +50,9 @@ small salary delta.
    NOT: pure accounting/bookkeeping, statutory audit, tax compliance, AR/AP ops, payroll.
 2. **Location**: Bengaluru (on-site/hybrid) OR outside India (on-site/hybrid).
    **No remote-only roles.**
-3. **Seniority**: drop roles requiring 8+ years, Director/VP/Head-of titles with 10y+ asks.
+3. **Seniority**: drop roles whose JD explicitly requires **5+ years**, and drop
+   Senior Manager / Lead / Head / Director / VP titles outright. Plain Manager and
+   Deputy Manager titles stay (scored lower than analyst/associate seats).
 
 ## Soft criteria (scoring — 0–100 composite)
 
@@ -52,7 +61,7 @@ small salary delta.
 | Role fit | 30 | JD matches his skills: FP&A, budgeting/forecasting, variance analysis, **financial modelling / integrated 3-statement models**, unit economics, board/investor reporting, scenario analysis. CA explicitly welcomed = bonus. |
 | Company stage & quality | 25 | **Series B minimum** (or later: C/D/pre-IPO/profitable-bootstrapped with proven traction). Series A or younger = cap score at ~45 and tag `TOO_EARLY`. Recent funding (<18 months), credible investors, real revenue, founder quality. Avoid: layoffs in last 6 months, scandal, zombie companies. |
 | Growth & goal fit | 20 | Role is close to strategy/decision-making (works with CFO/founders, owns models, board decks). First or second FP&A hire = excellent. Big finance team doing slice-work = weaker. |
-| Geography & visa | 15 | `BLR` roles: full marks on this signal. Abroad **with visa sponsorship** (stated or known sponsor): full marks + tag `ABROAD+VISA`. Abroad, visa unclear: mid marks + tag `ABROAD?VISA` (his call). |
+| Geography & visa | 15 | `BLR` roles: full marks on this signal. Abroad **with visa sponsorship** (stated or known sponsor): full marks + tag `ABROAD+VISA`. Abroad, visa unclear: mid marks + tag `ABROAD?VISA` (his call). **USA: deprioritized by preference — cap total score at 40, band `low`, red-flag "USA — deprioritized by preference"; never an apply band.** |
 | Freshness & realness | 10 | Posted <14 days = fresh. Reposted >60 days, evergreen postings, agency-laundered listings = penalize. |
 
 **Score bands**: 80+ = apply today · 65–79 = strong, apply this week · 50–64 = optional ·
@@ -75,3 +84,5 @@ First person, confident but not salesy, concrete numbers from his experience, on
 why THIS company (from real research), one line on the TWC model with the takeaway insight
 (5-month store breakeven vs 45-month company cash-positive), close with a clear ask. Max
 ~180 words. No "I hope this email finds you well", no "esteemed organization".
+Positioning: **newly qualified CA with 2 years of Big-4 audit fieldwork** — hungry,
+high-ownership, fast learner. Never inflate seniority, never claim a rank.

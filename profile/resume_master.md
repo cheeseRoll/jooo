@@ -6,8 +6,8 @@
 **Harsh Belde** — Chartered Accountant · Strategic Finance & Business Leadership
 Bengaluru, India · +91 74066 54394 · harshbelde3@gmail.com · linkedin.com/in/harshbelde
 
-Chartered Accountant with Big Four experience auditing FMCG, manufacturing, and fintech
-businesses. Experienced in profitability analysis, variance modeling and analysis, and
+Newly qualified Chartered Accountant (May 2026) with 2 years of Big Four audit
+articleship + 1 month full-time, across FMCG, manufacturing, and fintech businesses. Experienced in profitability analysis, variance modeling and analysis, and
 delivering financial insights to senior leadership. Seeking an FP&A, Strategic Finance or
 business finance role focused on driving business performance, rolling forecasts, and
 data-driven decision support.

@@ -23,6 +23,9 @@ TITLE_EXCLUDE = [
     "taxation", "audit", "compliance", "company secretary", "kyc", "underwrit",
     "collections", "credit analyst", "loan", "intern", "director", "vice president",
     "vp ", "vp,", "vp-", "head of", "president", "controller", "cfo",
+    # fresher-CA ceiling: plain "manager"/"deputy manager" stay, these don't
+    "senior manager", "sr manager", "sr. manager", "lead -", "lead –", "lead,",
+    "head -", "head –", "head,",
 ]
 
 BLR = ["bengaluru", "bangalore", "blr"]
@@ -30,7 +33,7 @@ INDIA_OTHER = ["mumbai", "delhi", "new delhi", "gurgaon", "gurugram", "noida", "
                "pune", "chennai", "kolkata", "ahmedabad", "jaipur", "kochi", "indore",
                "chandigarh", "india"]  # bare "india" without a BLR city → not targetable
 
-MAX_YEARS = 8
+MAX_YEARS = 5  # fresher CA (2y articleship): drop JDs explicitly asking 5+ years
 YEARS_RE = re.compile(r"(\d{1,2})\s*(?:\+|-\s*\d{1,2})?\s*(?:years|yrs|y\b)", re.I)
 
 
