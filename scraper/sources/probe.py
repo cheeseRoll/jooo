@@ -48,11 +48,9 @@ def _board_identity(ats: str, tok: str, data) -> str | None:
         board = get_json(f"https://boards-api.greenhouse.io/v1/boards/{tok}", min_gap=0.3)
         return (board or {}).get("name")
     if ats == "smartrecruiters":
-        detail = get_json(f"https://api.smartrecruiters.com/v1/companies/{tok}", min_gap=0.3)
-        if detail and detail.get("name"):
-            return detail["name"]
         content = data.get("content") or []
-        return (content[0].get("company") or {}).get("name") if content else None
+        name = (content[0].get("company") or {}).get("name") if content else None
+        return name or "?unverifiable?"  # never accept an SR board we can't identify
     if ats == "ashby":
         return data.get("organizationName") or data.get("name")
     return None  # lever exposes no account name
@@ -71,8 +69,9 @@ def probe(name: str) -> tuple[str, str] | None:
              lambda d: isinstance(d, dict) and "jobs" in d),
             ("workable", f"https://apply.workable.com/api/v1/widget/accounts/{tok}",
              lambda d: isinstance(d, dict) and "jobs" in d),
+            # SR answers 200 + empty content for ANY identifier — a hit needs real postings
             ("smartrecruiters", f"https://api.smartrecruiters.com/v1/companies/{tok}/postings?limit=1",
-             lambda d: isinstance(d, dict) and "content" in d),
+             lambda d: isinstance(d, dict) and bool(d.get("content"))),
         ]
         for ats, url, ok in checks:
             data = get_json(url, min_gap=0.3)
