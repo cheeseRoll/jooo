@@ -23,13 +23,15 @@ def adzuna(days: int = 7) -> list[dict]:
     if not (app_id and app_key):
         return []
     jobs = []
-    # (country_code, where) — India + realistic on-site-abroad markets Adzuna covers
-    targets = [("in", "Bangalore"), ("sg", "Singapore"), ("gb", "London"), ("us", "")]
+    # (country_code, where) — India + realistic on-site-abroad markets Adzuna covers.
+    # No "us": USA is deprioritized by preference; US startup roles still arrive via
+    # the ATS watchlist, a generic US portal sweep is pure noise.
+    targets = [("in", "Bangalore"), ("sg", "Singapore"), ("gb", "London")]
     for cc, where in targets:
         for q in QUERIES:
             data = get_json(
                 f"https://api.adzuna.com/v1/api/jobs/{cc}/search/1"
-                f"?app_id={app_id}&app_key={app_key}&results_per_page=50"
+                f"?app_id={app_id}&app_key={app_key}&results_per_page=30"
                 f"&what={q.replace(' ', '%20')}&where={where}&max_days_old={days}"
                 "&content-type=application/json", min_gap=1.5)
             for j in (data or {}).get("results", []):
@@ -48,11 +50,15 @@ def jooble(days: int = 7) -> list[dict]:
     key = os.getenv("JOOBLE_KEY")
     if not key:
         return []
+    import datetime
+    since = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
     jobs = []
     for loc in ["Bengaluru", "Dubai", "Singapore"]:
         for q in QUERIES[:2]:
             data = post_json(f"https://jooble.org/api/{key}",
-                             {"keywords": q, "location": loc, "datecreatedfrom": f"{days} days"})
+                             {"keywords": q, "location": loc, "datecreatedfrom": since})
+            if data is None:
+                print(f"  ! jooble: no/error response for '{q}' @ {loc}")
             for j in (data or {}).get("jobs", []):
                 jobs.append(make_job(
                     title=j.get("title"), company=j.get("company"),
@@ -80,8 +86,12 @@ def jsearch(days: int = 7) -> list[dict]:
                         "num_pages": 1},
                 headers={"X-RapidAPI-Key": key, "X-RapidAPI-Host": "jsearch.p.rapidapi.com"},
                 timeout=20)
+            if r.status_code != 200:
+                # 403 usually means the RapidAPI account isn't subscribed to JSearch's free plan
+                print(f"  ! jsearch: HTTP {r.status_code} for '{q}': {r.text[:120]}")
             data = r.json() if r.status_code == 200 else {}
-        except requests.RequestException:
+        except requests.RequestException as e:
+            print(f"  ! jsearch: {e}")
             continue
         for j in data.get("data", []):
             loc = ", ".join(x for x in (j.get("job_city"), j.get("job_country")) if x)

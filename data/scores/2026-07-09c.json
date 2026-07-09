@@ -1,0 +1,1592 @@
+[
+ {
+  "id": "bcf52d7b95b6679e",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Early stage (Reo.Dev)",
+  "why": "Account and Finance Manager at Reo.Dev — early-stage dev-tools startup, role mixes accounting ops with finance; below Series B bar.",
+  "resume_tips": "",
+  "red_flags": "TOO_EARLY; accounting-mix role"
+ },
+ {
+  "id": "b10a801d9563336d",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at Honeywell — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup; Manager title stretch"
+ },
+ {
+  "id": "1433851205874264",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at NetApp — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "9b7fc4b1a95a8e31",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at Honeywell — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup; Manager title stretch"
+ },
+ {
+  "id": "e992cbf3c14a3bd0",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at Honeywell Technologies — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "be36492ba2bf9e3e",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at Honeywell — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "7f2323f81ffd5b47",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at HP — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "e775e2d974aed56e",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at HP — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "8d1bc9efe3b70f12",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at ABB — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "52271886f05edbd7",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (ABB)",
+  "why": "FP&A Analyst at ABB's BLR center — clean analyst-level FP&A at an MNC; fine fallback while startup seats mature.",
+  "resume_tips": "Straightforward keyword-mirror application.",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "4354bd9c28fda1ad",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at HP — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "e58a2a550a416c90",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at HP — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "c86061d7b96daee3",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at Danaher — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup; Manager title stretch"
+ },
+ {
+  "id": "0a2de8df8104a016",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at ABB — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "5e456193bcaa2f80",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at MMS — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "445b7b8bccdf3b60",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at ABB — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "d99256870af3a5cd",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Public (JPMorganChase)",
+  "why": "JPMC FP&A Associate (Adzuna copy of the LinkedIn listing already on your board).",
+  "resume_tips": "",
+  "red_flags": "not a startup; possible duplicate"
+ },
+ {
+  "id": "f519f455aca13ad9",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at ABB — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "018373f0e27082d9",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at ASSPL - Karnataka — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "fa44e4fda34d66a6",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at Pretium Enterprise Services — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup; Manager title stretch"
+ },
+ {
+  "id": "2799b32fd2214123",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Public (Elastic)",
+  "why": "Sr Analyst FP&A at Elastic's BLR hub — clean FP&A at a strong tech co; GCC, not a startup.",
+  "resume_tips": "Mirror budgeting/forecasting keywords; mention Python/SQL.",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "b3a59e9ff596d71a",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "",
+  "why": "Bengaluru MNC/GCC role at Adobe — solid FP&A craft, low startup learning; fallback tier.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "bf6934d77e8f69ef",
+  "fit_score": 45,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Early stage (seed/Series A)",
+  "why": "KAST (stablecoin banking, SG) Business Economics Lead — exciting strategic-finance scope but early-stage and a Lead title: double mismatch with your Series B + fresher bars.",
+  "resume_tips": "",
+  "red_flags": "TOO_EARLY + Lead title"
+ },
+ {
+  "id": "3269ea4e5eba5504",
+  "fit_score": 45,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Early stage (seed/Series A)",
+  "why": "KAST duplicate variant of the Business Economics Lead posting.",
+  "resume_tips": "",
+  "red_flags": "TOO_EARLY + Lead title; duplicate"
+ },
+ {
+  "id": "83628922c3199517",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Government (GovTech Singapore)",
+  "why": "Strategic Finance Partner at GovTech SG — great title, but Singapore public sector effectively hires citizens/PRs.",
+  "resume_tips": "",
+  "red_flags": "public-sector hiring restrictions"
+ },
+ {
+  "id": "ce616f569f3f0271",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at BD Mexico — EP sponsorship routine, but not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "2113c44f1f6ba4e1",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at coty — EP sponsorship routine, but not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "71b6ce7e9b66e5a6",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at Tyson Jay — EP sponsorship routine, but not a startup and agency-posted.",
+  "resume_tips": "",
+  "red_flags": "agency listing"
+ },
+ {
+  "id": "d55f90355c11bc7f",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at APAC Michael Page — EP sponsorship routine, but not a startup and agency-posted.",
+  "resume_tips": "",
+  "red_flags": "agency listing"
+ },
+ {
+  "id": "1ca239abf6cce959",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at Salt — EP sponsorship routine, but not a startup and agency-posted.",
+  "resume_tips": "",
+  "red_flags": "agency listing"
+ },
+ {
+  "id": "aa5c3a5206c0c59c",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (Marina Bay Sands)",
+  "why": "FP&A Analyst (Gaming) at Marina Bay Sands SG — analyst level fits, MBS sponsors routinely; casino FP&A is P&L-heavy but zero startup DNA.",
+  "resume_tips": "Volume/price-mix variance work maps to gaming revenue analysis.",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "8b60b445a4523efb",
+  "fit_score": 58,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Series A/B (Parcel Perform)",
+  "why": "FP&A Manager at Parcel Perform (SG e-commerce logistics data) — small startup finance team = high ownership; Manager title stretch for a fresher but startups flex on this.",
+  "resume_tips": "Lead with the TWC model + Power BI; e-commerce delivery economics = unit-economics work.",
+  "red_flags": "Manager title stretch; verify latest funding stage before applying"
+ },
+ {
+  "id": "fe99643387c60757",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (Genting)",
+  "why": "FP&A Assistant Manager at Resorts World Sentosa SG — assistant-manager band is reachable; resort MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "4a8e94b007f7f6c7",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at Thermo Fisher Scientific — EP sponsorship routine, but not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "52108969f5a1e31f",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at Hyve Solutions — EP sponsorship routine, but not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "2e0b54db321e16ba",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at Essex Bio-Technology — EP sponsorship routine, but not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "685b19f33cb56c92",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Corporate subsidiary (SBI Group)",
+  "why": "Assistant Finance Manager at SBI Digital Markets SG — digital-assets finance arm of a large group; assistant-manager band reachable, fintech-adjacent learning.",
+  "resume_tips": "Fintech audit exposure + Ind AS/reporting depth.",
+  "red_flags": "corporate subsidiary, not a startup"
+ },
+ {
+  "id": "095a3ece574d53fe",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "",
+  "why": "Singapore MNC role at HARIBO Asia Pacific Pte. Ltd. — EP sponsorship routine, but not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "0e99bb27613a6777",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "47321b0cbc103d83",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Prevalent AI — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "bdc3c9627c93d959",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "506c695d080f0261",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "389faf80def7f068",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "7cea701feee0f323",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "2313c07196390611",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "c8eb2029158f26bc",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Sequence Advisers LLP — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "8132fa7082900c31",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Moody's Corporation — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "0fd08902954a14a1",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "9eb431559d1dc291",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "5e783e57174f73ca",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at bp — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "6df862686c806e27",
+  "fit_score": 43,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at London and Quadrant Housing Trust — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "ba67952b40866c9c",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "a5f9b1a9a86872c8",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "3c6ef0e33f114b5a",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "ee47be5f2cba4eb4",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Heathrow — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "7907cbde1a3bbe53",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "e4c63dad0b9f67d2",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "01248b3fdad73cee",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "f2b7b2422f53bbfd",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "8c279e2ba42a2989",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "8ea0467dba930f80",
+  "fit_score": 62,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (Wise) — sponsors UK visas",
+  "why": "Finance Business Partner (Marketing) at Wise London — public now but still growth-tech DNA, and Wise is one of the few UK employers that sponsors at analyst/FBP level at real volume.",
+  "resume_tips": "Quantified one-page CV; lead with unit-economics + the fintech EBITDA finding.",
+  "red_flags": "UK sponsorship competitive at fresher level"
+ },
+ {
+  "id": "da603cccf249987a",
+  "fit_score": 62,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (Wise) — sponsors UK visas",
+  "why": "Finance Business Partner (Servicing) at Wise London — same case as their Marketing FBP seat.",
+  "resume_tips": "Same as Wise Marketing FBP.",
+  "red_flags": "UK sponsorship competitive at fresher level"
+ },
+ {
+  "id": "77db7b7cb8bc7143",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "bb3d9082f89685f1",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "8f6661a48ec5a560",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "716a56a07e102f42",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at FM — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "9077285602af3deb",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "b99ef84233d75688",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Heathrow Airport — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "46d48f35ce8915fd",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at ROYAL INSTITUTE OF BRITISH ARCHITECTS — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "e62cf455da9784b5",
+  "fit_score": 43,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at ClearCourse — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "8c6b963256b60ef5",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Control Risks — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "10fdbac95ab2dc98",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "dc64832b3285c306",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Look Ahead Care and Support — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "cb6996a75572e0f2",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "34261103574d1c38",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Look Ahead Care and Support — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "93a15b85c9f7b00e",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at BP Energy — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "b6d1f301d320c811",
+  "fit_score": 43,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Bonhams — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "3a9918412ec023f7",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "7e9409194b96181d",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Nuffield Health — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "80df1a0063f85ce7",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "c780a67d58dd7249",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "f389fddfcb8d3dca",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "5e5c7fd08c5c1035",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "231a0b860597fad8",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "02a521232fb306a5",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "6c646e7593cedd97",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "5c87b420039c7ffa",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "Agency-posted London role — employer unnamed, UK sponsorship for a fresher CA is a long shot.",
+  "resume_tips": "",
+  "red_flags": "agency listing; UK visa unclear at fresher level"
+ },
+ {
+  "id": "834ba439047ecd88",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Early-stage (BCB Group, crypto payments)",
+  "why": "FP&A Manager at BCB Group London — crypto B2B payments, likely below Series B, Manager title + UK visa unclear.",
+  "resume_tips": "",
+  "red_flags": "stage below bar; Manager stretch; visa unclear"
+ },
+ {
+  "id": "7678db15275afbc1",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "London role at Oxygen — not a startup and UK sponsorship at fresher level is competitive.",
+  "resume_tips": "",
+  "red_flags": "UK visa unclear at fresher level"
+ },
+ {
+  "id": "563913307cd5fde8",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Twenty) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "f1fa3458f9d214fc",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Guidehouse) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "c242dff51ec3726b",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Twenty) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "53fa378f902415d4",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Twenty) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "7e2ad1cd7a033cf2",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (fal) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "de414ad815628efb",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Uber) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "423d9036ae9f4c07",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Uber) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "2c714328ea21f57d",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Prima) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "736c267c405b0de8",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Sierra) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "0c73d4804f6c7568",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Madison Energy Infrastructure) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "76f4a7cb0c0644ea",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Setpoint) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "8e0b6c156f43037a",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Guidehouse) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "6a18f272dfbf45c2",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Cambia Health Solutions) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "ea86f919055fb685",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Initio Capital) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "6c833db305d1cecf",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Stampli) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "95a9ae174577e705",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Cambia Health Solutions) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "53affcdb6e18a40a",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Madison Energy Infrastructure) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "1acf7fcd9422befe",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (ALKU) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "a8776885abaf94b2",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Harvey) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "1454ebb42f6380dc",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Harvey) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "3c3383983186a39b",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Parkview Health) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "20496b38a5d25d1a",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Modern Health) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "c8e9ff4fa6149c7f",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Whop) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "b6b3009396daf824",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Cambia Health Solutions) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "462f1b2013923ea9",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Consolidated Chassis Management, LLC) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "5512274e20432836",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Toast Inc) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "dff9314858e851f6",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Toast Inc) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "24ff2dddb4456f1d",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (PointClickCare) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "0b2b55a3ac4cc04f",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Airbnb) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "cf28158b4d76e6fc",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Rippling) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "ecbff0744965bfa3",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (DANIEL DEFENSE LLC) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "66b2692eff5d99ca",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Pacific Northwest National Laboratory) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "15cac41fadc37d3a",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Amazon) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "ddcf53983083721b",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Magna International) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "abb34c0eb9084cff",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Magna International, Inc) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "071c8f3385c422ec",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Amazon) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "1f7001f5521421b6",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Meharry Medical College) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "b7758a28b45254cc",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (The Ohio State University) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "cade39b6bd0a15f0",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Mastercard) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "35a733a4ffc747ca",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Our Next Energy Inc) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "689add781d83fa6b",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Robert Half) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "6fdd3496f30737b8",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (MANSON WESTERN LLC) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "5f898def57a27739",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (VTS) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "164630e2d348c7e6",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (FranklinCovey) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "2cf081d8587e9fad",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (MCKESSON Careers) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "0cdb2875417e7748",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "afbc1fd2428e4b98",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "13ea3f89eb93619a",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "43ef2484ef8193e7",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "9f528658e5e84685",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "c511c915e042bb88",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "9cd966f5f7218816",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "105cdcaedcf96868",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "431fb8bfdcdb9ce1",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "6ddda118f40301ee",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "279651f5e943b2c8",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "7b3eeff6d292fae0",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "43f9eee486dba877",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "da5dba88b4409621",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "2b8a80c91a763ea3",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "fe4fe165ca359e19",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "9179fa512e2c7004",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "cf689c936c8e6ed0",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a",
+  "why": "Same 'remote FP&A manager' posting blasted across 20+ US cities — classic ghost/lead-gen listing.",
+  "resume_tips": "",
+  "red_flags": "ghost-listing spam; USA — deprioritized by preference"
+ },
+ {
+  "id": "433d18ff8f074403",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Morrison) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "2ddeacf5b32a0c53",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Imerys) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "57385b5879e30473",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Robert Half) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "a530588413c1dcca",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Robert Half) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "d85f6cd2b6abe373",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Tradewind) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "1841888961d25331",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Morrison) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ },
+ {
+  "id": "e051dbf9066dd318",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "",
+  "why": "US listing (Augment Risk) — kept per your 'show at bottom' preference; US sponsorship for an India-based fresher is rare.",
+  "resume_tips": "",
+  "red_flags": "USA — deprioritized by preference"
+ }
+]

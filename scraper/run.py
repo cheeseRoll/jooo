@@ -72,6 +72,20 @@ def main():
             by_id[j["id"]] = {**j, "first_seen": keep_first}
     print(f"deduped: {len(by_id)}")
 
+    # ghost-job spam cap: same company+title blasted across many cities → keep 3
+    from collections import defaultdict
+    from normalize import norm_title
+    per_role: dict[tuple, int] = defaultdict(int)
+    capped: dict[str, dict] = {}
+    for jid, j in by_id.items():
+        key = (j["company"].lower(), norm_title(j["title"]))
+        per_role[key] += 1
+        if per_role[key] <= 3:
+            capped[jid] = j
+    if len(capped) < len(by_id):
+        print(f"spam cap: {len(by_id)} → {len(capped)}")
+    by_id = capped
+
     db = load_db()
     known = db["jobs"]
     fresh = [j for jid, j in by_id.items() if jid not in known]
