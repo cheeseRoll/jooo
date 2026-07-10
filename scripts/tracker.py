@@ -2,6 +2,7 @@
 
   python3 scripts/tracker.py init
   python3 scripts/tracker.py mark-applied <job_id>
+  python3 scripts/tracker.py mark-mailed <job_id>
   python3 scripts/tracker.py set-contacts <job_id> --contacts "Name <a@b.com> (CFO); ..." [--note "..."]
   python3 scripts/tracker.py set-status <job_id> <status>
   python3 scripts/tracker.py list
@@ -96,6 +97,29 @@ def set_contacts(job_id, contacts, note=None):
     print(f"contacts saved for {job_id}")
 
 
+def mark_mailed(job_id):
+    db = json.loads(JOBS_DB.read_text())
+    job = db["jobs"].get(job_id)
+    if job is None:
+        raise SystemExit(f"unknown job id {job_id}")
+    job["status"] = "mailed"
+    job["mailed_on"] = date.today().isoformat()
+    JOBS_DB.write_text(json.dumps(db, indent=1, ensure_ascii=False))
+
+    wb = _open()
+    ws = wb.active
+    r = _find_row(ws, job_id)
+    if r is None:  # mailed without ever marking applied — create the row too
+        ws.append([job_id, job["company"], job["title"], job["location"],
+                   job.get("fit_score"), job["url"],
+                   job.get("applied_on", job["mailed_on"]), "", "", "", ""])
+        r = ws.max_row
+    ws.cell(row=r, column=8, value=f"mailed {job['mailed_on']}")
+    ws.cell(row=r, column=8).fill = PatternFill("solid", fgColor="CFE2F3")
+    wb.save(XLSX)
+    print(f"mailed: {job['company']} — {job['title']}")
+
+
 def set_status(job_id, status):
     wb = _open()
     ws = wb.active
@@ -119,11 +143,13 @@ if __name__ == "__main__":
     sub.add_parser("init")
     sub.add_parser("list")
     p = sub.add_parser("mark-applied"); p.add_argument("job_id")
+    p = sub.add_parser("mark-mailed"); p.add_argument("job_id")
     p = sub.add_parser("set-contacts"); p.add_argument("job_id")
     p.add_argument("--contacts", required=True); p.add_argument("--note")
     p = sub.add_parser("set-status"); p.add_argument("job_id"); p.add_argument("status")
     a = ap.parse_args()
     {"init": init, "list": list_rows,
      "mark-applied": lambda: mark_applied(a.job_id),
+     "mark-mailed": lambda: mark_mailed(a.job_id),
      "set-contacts": lambda: set_contacts(a.job_id, a.contacts, a.note),
      "set-status": lambda: set_status(a.job_id, a.status)}[a.cmd]()

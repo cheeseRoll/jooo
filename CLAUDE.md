@@ -23,16 +23,16 @@ the application tracker + cover-mail drafts.
    - Write results to `data/scores/YYYY-MM-DD.json` matching the schema in
      `scripts/score_schema.json`, then run `python3 scripts/merge_scores.py` to fold
      scores into `data/jobs.json`.
-4. **Process "Applied" feedback**:
-   - List open GitHub issues in this repo titled `Applied: <job_id>` (github MCP tools).
-   - For each: run `python3 scripts/tracker.py mark-applied <job_id>`, then research
-     2–3 best contacts (CFO / Head of Finance / founder / recruiter) via web search —
-     names, roles, emails (label pattern-guesses as such), LinkedIn URLs.
-   - Write a cover letter (voice rules at the bottom of `profile/profile.md`), create a
-     **Gmail draft** (Gmail MCP `create_draft`) addressed to the contacts.
-   - Record contacts + status "draft created" via
-     `python3 scripts/tracker.py set-contacts <job_id> ...`, close the issue with a short
-     comment.
+4. **Process "Applied" and "Mailed" feedback** (open GitHub issues, github MCP tools):
+   - Issues titled `Applied: <job_id>`: run `python3 scripts/tracker.py mark-applied
+     <job_id>`, then research 2–3 best contacts (CFO / Head of Finance / founder /
+     recruiter) via web search — names, roles, emails (label pattern-guesses as such),
+     LinkedIn URLs. Write a cover letter (voice rules at the bottom of
+     `profile/profile.md`), create a **Gmail draft** (Gmail MCP `create_draft`)
+     addressed to the contacts. Record contacts via `python3 scripts/tracker.py
+     set-contacts <job_id> ...`, close the issue with a short comment.
+   - Issues titled `Mailed: <job_id>` (Harsh sent the cover mail): run
+     `python3 scripts/tracker.py mark-mailed <job_id>`, close the issue silently.
 5. **Build dashboard**: `python3 scripts/build_dashboard.py` → `docs/index.html`.
    Re-publish per `docs/HOSTING.md`.
 6. **Commit & push** everything (`data/`, `docs/`, `tracker/`) to the working branch.

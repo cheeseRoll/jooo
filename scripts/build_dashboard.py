@@ -22,7 +22,7 @@ FIELDS = ["id", "title", "company", "location", "url", "posted_at", "first_seen"
 def main():
     db = json.loads(JOBS_DB.read_text())
     jobs = [{**{k: j.get(k) for k in FIELDS},
-             "applied_on": j.get("applied_on"),
+             "applied_on": j.get("applied_on"), "mailed_on": j.get("mailed_on"),
              "desc": (j.get("description") or "")[:400]}
             for j in db["jobs"].values() if j.get("status") != "expired"]
     jobs.sort(key=lambda j: (-(j["fit_score"] or -1), j["posted_at"] or "", j["company"]))
@@ -114,6 +114,7 @@ summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px}
     <option value="BLR">Bengaluru</option>
     <option value="ABROAD+VISA">Abroad + visa</option>
     <option value="ABROAD?VISA">Abroad (visa unclear)</option></select>
+  <select id="city"><option value="">All cities</option></select>
   <select id="band"><option value="">All scores</option>
     <option value="80">80+ apply today</option>
     <option value="65">65+ strong</option>
@@ -130,10 +131,35 @@ const REPO="__REPO__";
 const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const days=d=>{if(!d)return null;return Math.round((Date.now()-new Date(d))/864e5)};
 const ago=d=>{const n=days(d);return n==null?"":n<=0?"today":n+"d ago"};
-function issueUrl(j){
-  const t=encodeURIComponent("Applied: "+j.id);
+
+// Optimistic status overlay: buttons take effect on this device instantly;
+// the nightly rebuild bakes the real status in from the tracker afterwards.
+const RANK={new:0,scored:0,applied:1,mailed:2};
+const LS=JSON.parse(localStorage.getItem("jooo-status")||"{}");
+function eff(j){
+  const db=RANK[j.status]||0, loc=RANK[LS[j.id]]||0;
+  return loc>db?LS[j.id]:j.status;}
+function markLocal(id,st){
+  LS[id]=st; localStorage.setItem("jooo-status",JSON.stringify(LS));
+  setTimeout(render,150);}
+
+function issueUrl(j,kind){
+  const t=encodeURIComponent(kind+": "+j.id);
   const b=encodeURIComponent(j.company+" — "+j.title+"\n"+j.url);
   return `https://github.com/${REPO}/issues/new?title=${t}&body=${b}`;}
+
+// city = first segment of location, with common aliases folded together
+function cityOf(j){
+  const l=(j.location||"").toLowerCase();
+  if(/bengaluru|bangalore|\bblr\b/.test(l))return "Bengaluru";
+  if(l.includes("singapore"))return "Singapore";
+  if(l.includes("dubai"))return "Dubai";
+  if(l.includes("abu dhabi"))return "Abu Dhabi";
+  if(l.includes("london"))return "London";
+  if(l.includes("new york"))return "New York";
+  if(l.includes("san francisco"))return "San Francisco";
+  const s=(j.location||"").split(",")[0].trim();
+  return s?s.replace(/\b\w/g,c=>c.toUpperCase()):"Other";}
 function card(j){
   const s=j.fit_score;
   const cls=s>=80?"s80":s>=65?"s65":s>=50?"s50":"";
@@ -156,34 +182,56 @@ function card(j){
   ${j.desc?`<details><summary>Job description</summary>${esc(j.desc)}…</details>`:""}
   <div class="acts">
     <a class="btn apply" href="${esc(j.url)}" target="_blank" rel="noopener">Apply ↗</a>
-    ${j.status==="applied"
-      ?`<span class="applied-tag">✓ applied${j.applied_on?" "+esc(j.applied_on):""}</span>`
-      :`<a class="btn done" href="${issueUrl(j)}" target="_blank" rel="noopener">Mark applied ✓</a>`}
+    ${(()=>{const st=eff(j);
+      if(st==="mailed")
+        return `<span class="applied-tag">✓ applied · ✉ mailed${j.mailed_on?" "+esc(j.mailed_on):""}</span>`;
+      if(st==="applied")
+        return `<span class="applied-tag">✓ applied${j.applied_on?" "+esc(j.applied_on):""}</span>
+          <a class="btn done" href="${issueUrl(j,"Mailed")}" target="_blank" rel="noopener"
+             onclick="markLocal('${j.id}','mailed')">Cover mail sent ✉</a>`;
+      return `<a class="btn done" href="${issueUrl(j,"Applied")}" target="_blank" rel="noopener"
+             onclick="markLocal('${j.id}','applied')">Mark applied ✓</a>`;})()}
   </div></div>`;}
 function tiles(list){
   const fresh=list.filter(j=>days(j.posted_at)!=null&&days(j.posted_at)<=7).length;
-  const hot=list.filter(j=>j.fit_score>=80&&j.status!=="applied").length;
-  const applied=JOBS.filter(j=>j.status==="applied").length;
+  const hot=list.filter(j=>j.fit_score>=80&&(RANK[eff(j)]||0)<1).length;
+  const applied=JOBS.filter(j=>(RANK[eff(j)]||0)>=1).length;
+  const mailed=JOBS.filter(j=>eff(j)==="mailed").length;
   document.getElementById("tiles").innerHTML=[
     [list.length,"open roles shown"],[hot,"scored 80+ (apply)"],
-    [fresh,"posted ≤ 7 days"],[applied,"applied so far"]]
+    [fresh,"posted ≤ 7 days"],[applied,`applied (${mailed} mailed)`]]
     .map(([v,l])=>`<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");}
+function fillCities(){
+  const counts={};
+  for(const j of JOBS){const c=cityOf(j);counts[c]=(counts[c]||0)+1;}
+  const cities=Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,18);
+  const sel=document.getElementById("city");
+  for(const [c,n] of cities){
+    const o=document.createElement("option");
+    o.value=c;o.textContent=`${c} (${n})`;sel.appendChild(o);}}
+const roleKey=j=>j.company.toLowerCase()+"|"+j.title.toLowerCase().replace(/[^a-z0-9]/g,"");
 function render(){
   const q=document.getElementById("q").value.toLowerCase();
   const geo=document.getElementById("geo").value;
+  const city=document.getElementById("city").value;
   const band=+document.getElementById("band").value||0;
   const hide=document.getElementById("hideap").checked;
   const sort=document.getElementById("sort").value;
+  // hide-applied hides the whole role (company+title), so duplicate listings of
+  // a job he already applied to disappear too
+  const appliedKeys=new Set(JOBS.filter(j=>(RANK[eff(j)]||0)>=1).map(roleKey));
   let list=JOBS.filter(j=>
     (!q||(j.title+" "+j.company+" "+j.location).toLowerCase().includes(q))
-    &&(!geo||j.geo_tag===geo)&&(!band||(j.fit_score||0)>=band)
-    &&(!hide||j.status!=="applied"));
+    &&(!geo||j.geo_tag===geo)&&(!city||cityOf(j)===city)
+    &&(!band||(j.fit_score||0)>=band)
+    &&(!hide||!appliedKeys.has(roleKey(j))));
   if(sort==="date")list=[...list].sort((a,b)=>(b.posted_at||"").localeCompare(a.posted_at||""));
   tiles(list);
   document.getElementById("list").innerHTML=
     list.length?list.map(card).join(""):`<div class="empty">Nothing matches — relax a filter.</div>`;}
-for(const id of["q","geo","band","sort","hideap"])
+for(const id of["q","geo","city","band","sort","hideap"])
   document.getElementById(id).addEventListener("input",render);
+fillCities();
 render();
 </script></body></html>
 """
