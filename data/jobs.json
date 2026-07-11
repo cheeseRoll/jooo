@@ -12,7 +12,7 @@
    "salary": null,
    "remote": false,
    "stage": "Late stage (IPO-bound)",
-   "status": "applied",
+   "status": "mailed",
    "first_seen": "2026-07-09",
    "fit_score": 80,
    "band": "apply_today",
@@ -20,7 +20,8 @@
    "why": "Meesho BizFin is a CA-heavy team that hires Big-4-trained newly qualified CAs at Deputy Manager — the level maps cleanly to articleship + qualification, and category P&L ownership is his exact profile.",
    "resume_tips": "Lead with 'CA, first attempt (359/600)' + PwC — no rank claims, the first-attempt + Big-4 combination is the pitch. Mirror 'business finance'/'category P&L'; open with the FMCG product-mix variance bullet.",
    "red_flags": "",
-   "applied_on": "2026-07-09"
+   "applied_on": "2026-07-09",
+   "mailed_on": "2026-07-10"
   },
   "316168ab98b9c563": {
    "id": "316168ab98b9c563",
@@ -124,14 +125,16 @@
    "salary": null,
    "remote": false,
    "stage": "Series C+ (SaaS, ~$185M raised)",
-   "status": "scored",
+   "status": "mailed",
    "first_seen": "2026-07-09",
    "fit_score": 83,
    "band": "apply_today",
    "geo_tag": "ABROAD+VISA",
    "why": "Finance Analyst at Fresha's Dubai hub — analyst level is exactly right for a newly qualified CA, global SaaS marketplace, and UAE employment comes with standard visa sponsorship. Top overall pick.",
    "resume_tips": "Mirror 'marketplace'/'SaaS metrics' language; lead with variance & margin analysis and the fintech performance-analysis bullet. Mention immediate relocation readiness.",
-   "red_flags": "listing ~2 months old — verify it's still open"
+   "red_flags": "listing ~2 months old — verify it's still open",
+   "applied_on": "2026-07-09",
+   "mailed_on": "2026-07-10"
   },
   "86c540b88d01d567": {
    "id": "86c540b88d01d567",
@@ -628,14 +631,15 @@
    "salary": null,
    "remote": false,
    "stage": "Series D ($103M, Lightspeed; $750M valuation)",
-   "status": "scored",
+   "status": "applied",
    "first_seen": "2026-07-09",
    "fit_score": 82,
    "band": "apply_today",
    "geo_tag": "BLR",
    "why": "Finance Business Partner at Pocket FM — IC business-partnering seat (no team-management ask), Series D consumer audio at scale: content-cohort unit economics, creator payouts, market P&Ls.",
    "resume_tips": "Emphasize cohort/unit-economics from the TWC model (cohort cash burn) and the FMCG product-mix variance work — content economics is the same muscle. Pitch as newly qualified CA with 2 years of Big-4 fieldwork.",
-   "red_flags": ""
+   "red_flags": "",
+   "applied_on": "2026-07-09"
   },
   "c354877c14eaa225": {
    "id": "c354877c14eaa225",
@@ -817,14 +821,15 @@
    "salary": null,
    "remote": false,
    "stage": "Merged with NESFB — fintech/bank",
-   "status": "scored",
+   "status": "applied",
    "first_seen": "2026-07-09",
    "fit_score": 74,
    "band": "apply_this_week",
    "geo_tag": "BLR",
    "why": "slice Business Finance Executive — executive-level title is genuinely fresher-friendly (the most realistic startup entry on this list), fintech-turned-bank with real learning depth.",
    "resume_tips": "Highlight the listed-fintech performance analysis (EBITDA compression finding) — directly relevant to a lending book's economics.",
-   "red_flags": ""
+   "red_flags": "",
+   "applied_on": "2026-07-10"
   },
   "3a3cdf1733c300f5": {
    "id": "3a3cdf1733c300f5",
@@ -838,14 +843,15 @@
    "salary": null,
    "remote": false,
    "stage": "Flipkart-owned OTA",
-   "status": "scored",
+   "status": "applied",
    "first_seen": "2026-07-09",
    "fit_score": 63,
    "band": "optional",
    "geo_tag": "BLR",
    "why": "Business Finance Manager at Cleartrip — real BizFin scope, but a Manager seat at a scaled company typically wants 4-6y; a fresher CA application is a long shot worth one click, not tailoring effort.",
    "resume_tips": "Mirror 'business finance'; the railway forecasting bullet (leading indicators) fits travel demand planning.",
-   "red_flags": "Manager title — seniority stretch"
+   "red_flags": "Manager title — seniority stretch",
+   "applied_on": "2026-07-10"
   },
   "de7ae62676dd63b3": {
    "id": "de7ae62676dd63b3",
@@ -901,14 +907,16 @@
    "salary": null,
    "remote": false,
    "stage": "Late stage (IPO-bound)",
-   "status": "scored",
+   "status": "mailed",
    "first_seen": "2026-07-09",
    "fit_score": 80,
    "band": "apply_today",
    "geo_tag": "BLR",
    "why": "Same Meesho Deputy Manager BizFin role as the Lever listing (LinkedIn repost Jul 2 — actively hiring). Apply via the Lever link.",
    "resume_tips": "See the Lever listing entry.",
-   "red_flags": "duplicate of ATS listing"
+   "red_flags": "duplicate of ATS listing",
+   "applied_on": "2026-07-10",
+   "mailed_on": "2026-07-10"
   },
   "e044ca128f39fc6f": {
    "id": "e044ca128f39fc6f",
@@ -985,14 +993,15 @@
    "salary": null,
    "remote": false,
    "stage": "Series C ($39.4M, Jul 2024; $73M total)",
-   "status": "scored",
+   "status": "applied",
    "first_seen": "2026-07-09",
    "fit_score": 78,
    "band": "apply_this_week",
    "geo_tag": "BLR",
    "why": "Level AI (LLM contact-center intelligence) hiring a Finance Manager in Bengaluru — likely an early India finance seat with real ownership. Manager title is a stretch for a fresher CA, but startups do hire qualified CAs into it; worth the swing.",
    "resume_tips": "Lead with the TWC model and the PwC AI-automation workflow (70–80% time cut) — an AI company will notice. Be upfront about being newly qualified; sell ownership-beyond-designation (led field teams, partner awards).",
-   "red_flags": "Manager title — seniority stretch for a fresher CA"
+   "red_flags": "Manager title — seniority stretch for a fresher CA",
+   "applied_on": "2026-07-10"
   },
   "548d5615c3ccacfb": {
    "id": "548d5615c3ccacfb",
