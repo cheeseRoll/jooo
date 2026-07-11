@@ -33,6 +33,16 @@ the application tracker + cover-mail drafts.
      set-contacts <job_id> ...`, close the issue with a short comment.
    - Issues titled `Mailed: <job_id>` (Harsh sent the cover mail): run
      `python3 scripts/tracker.py mark-mailed <job_id>`, close the issue silently.
+   - **BCC sweep (since 2026-07-11)**: Harsh sends cover mails from
+     `harshbelde3@gmail.com` and BCCs `harshbelde@gmail.com` (the account this
+     session's Gmail connector reads). Search Gmail with
+     `from:harshbelde3@gmail.com newer_than:7d` (Gmail MCP `search_threads`),
+     match each mail to a tracker job by recipient domain / company name /
+     subject (draft subjects look like "<Role> ... — Harsh Belde ..."), then run
+     `python3 scripts/tracker.py mark-mailed <job_id>` for any matched job not
+     already mailed. This replaces the `Mailed:` issue for most cases — treat a
+     BCC'd mail as equivalent feedback. If a mail matches no tracker row,
+     mention it in the summary instead of guessing.
 5. **Build dashboard**: `python3 scripts/build_dashboard.py` → `docs/index.html`.
    Re-publish per `docs/HOSTING.md`.
 6. **Commit & push** everything (`data/`, `docs/`, `tracker/`) to the working branch.
