@@ -659,7 +659,7 @@
    "salary": null,
    "remote": false,
    "stage": "Series D ($103M, Lightspeed; $750M valuation)",
-   "status": "applied",
+   "status": "mailed",
    "first_seen": "2026-07-09",
    "fit_score": 82,
    "band": "apply_today",
@@ -674,8 +674,21 @@
      "dir": "ack",
      "who": "jobs-noreply@linkedin.com",
      "subject": "Your application was sent to Pocket FM"
+    },
+    {
+     "date": "2026-07-11",
+     "dir": "out",
+     "who": "abhilash.padival@pocketfm.com, rohan.nayak@pocketfm.com",
+     "subject": "Finance Business Partner (Bengaluru) — Harsh Belde, newly qualified CA, PwC audit"
+    },
+    {
+     "date": "2026-07-11",
+     "dir": "bounce",
+     "who": "mailer-daemon@googlemail.com (bounced: abhilash.padival@pocketfm.com, rohan.nayak@pocketfm.com)",
+     "subject": "Delivery Status Notification (Failure) — both recipient addresses rejected (550), resend needed"
     }
-   ]
+   ],
+   "mailed_on": "2026-07-11"
   },
   "c354877c14eaa225": {
    "id": "c354877c14eaa225",
@@ -873,7 +886,7 @@
    "salary": null,
    "remote": false,
    "stage": "Merged with NESFB — fintech/bank",
-   "status": "applied",
+   "status": "mailed",
    "first_seen": "2026-07-09",
    "fit_score": 74,
    "band": "apply_this_week",
@@ -888,8 +901,21 @@
      "dir": "ack",
      "who": "jobs-noreply@linkedin.com",
      "subject": "Your application was sent to slice"
+    },
+    {
+     "date": "2026-07-11",
+     "dir": "out",
+     "who": "sudhesh@sliceit.com, rajan@sliceit.com",
+     "subject": "Probable Business Finance Executive (Bengaluru) — Harsh Belde, newly qualified CA, PwC audit"
+    },
+    {
+     "date": "2026-07-11",
+     "dir": "bounce",
+     "who": "mailer-daemon@googlemail.com (bounced: sudhesh@sliceit.com only; rajan@sliceit.com delivered)",
+     "subject": "Delivery Status Notification (Failure) — one of two recipients rejected, rajan@ went through"
     }
-   ]
+   ],
+   "mailed_on": "2026-07-11"
   },
   "3a3cdf1733c300f5": {
    "id": "3a3cdf1733c300f5",
@@ -903,7 +929,7 @@
    "salary": null,
    "remote": false,
    "stage": "Flipkart-owned OTA",
-   "status": "applied",
+   "status": "mailed",
    "first_seen": "2026-07-09",
    "fit_score": 63,
    "band": "optional",
@@ -918,8 +944,15 @@
      "dir": "ack",
      "who": "jobs-noreply@linkedin.com",
      "subject": "Your application was sent to Cleartrip"
+    },
+    {
+     "date": "2026-07-11",
+     "dir": "out",
+     "who": "manjari.singhal@cleartrip.com",
+     "subject": "Business Finance Manager (Bengaluru) — Harsh Belde, newly qualified CA, PwC audit"
     }
-   ]
+   ],
+   "mailed_on": "2026-07-11"
   },
   "de7ae62676dd63b3": {
    "id": "de7ae62676dd63b3",
@@ -1081,7 +1114,7 @@
    "salary": null,
    "remote": false,
    "stage": "Series C ($39.4M, Jul 2024; $73M total)",
-   "status": "applied",
+   "status": "mailed",
    "first_seen": "2026-07-09",
    "fit_score": 78,
    "band": "apply_this_week",
@@ -1089,7 +1122,16 @@
    "why": "Level AI (LLM contact-center intelligence) hiring a Finance Manager in Bengaluru — likely an early India finance seat with real ownership. Manager title is a stretch for a fresher CA, but startups do hire qualified CAs into it; worth the swing.",
    "resume_tips": "Lead with the TWC model and the PwC AI-automation workflow (70–80% time cut) — an AI company will notice. Be upfront about being newly qualified; sell ownership-beyond-designation (led field teams, partner awards).",
    "red_flags": "Manager title — seniority stretch for a fresher CA",
-   "applied_on": "2026-07-10"
+   "applied_on": "2026-07-10",
+   "mail_activity": [
+    {
+     "date": "2026-07-11",
+     "dir": "out",
+     "who": "ashish@thelevel.ai, randall@thelevel.ai",
+     "subject": "Your potential finance Manager in Bengaluru — Harsh Belde, newly qualified CA, PwC audit"
+    }
+   ],
+   "mailed_on": "2026-07-11"
   },
   "548d5615c3ccacfb": {
    "id": "548d5615c3ccacfb",
@@ -5483,14 +5525,16 @@
    "salary": null,
    "remote": false,
    "stage": "Series B ($38M, Mar 2026 — Hara Global + Bain Capital Ventures, $139M val; Bertelsmann talks Jun 2026)",
-   "status": "scored",
+   "status": "mailed",
    "first_seen": "2026-07-11",
    "fit_score": 88,
    "band": "apply_today",
    "geo_tag": "BLR",
    "why": "Business Finance Analyst at Swish — analyst seat at a just-funded Series B whose whole model is kitchen-level unit economics (1-km pods, 10-min delivery). Finance sits next to founders at an 18-month-old company scaling multi-city.",
    "resume_tips": "Lead with the TWC model — store-level breakeven and cohort cash burn map 1:1 to Swish's pod economics. Mirror 'business finance' phrasing; mention 20k orders/day scale comfort from FMCG audit.",
-   "red_flags": ""
+   "red_flags": "",
+   "applied_on": "2026-07-11",
+   "mailed_on": "2026-07-11"
   },
   "2b0459c0d8e5318e": {
    "id": "2b0459c0d8e5318e",
@@ -6458,7 +6502,7 @@
    "salary": null,
    "remote": false,
    "stage": "Series F ($200M, 2025 — Kedaara + Wellington; ~$1.2B val, profitable FY25)",
-   "status": "applied",
+   "status": "mailed",
    "first_seen": "2026-07-11",
    "fit_score": 72,
    "band": "apply_this_week",
@@ -6473,8 +6517,15 @@
      "dir": "ack",
      "who": "jobs-noreply@linkedin.com",
      "subject": "Your application was sent to Porter"
+    },
+    {
+     "date": "2026-07-11",
+     "dir": "out",
+     "who": "pankaj.shroff@porter.in, cc sheeja.mathew@porter.in",
+     "subject": "Business Finance Manager (Bengaluru) — Harsh Belde, CA (Big-4, PwC)"
     }
-   ]
+   ],
+   "mailed_on": "2026-07-11"
   },
   "031bbb8357afd83b": {
    "id": "031bbb8357afd83b",
@@ -6487,9 +6538,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Listed MNC (NASDAQ: ADSK)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 48,
+   "band": "low",
+   "geo_tag": "BLR",
+   "why": "Autodesk is a listed MNC, not a startup; Senior Financial Analyst usually wants 3-5 yrs. Solid brand, wrong profile.",
+   "resume_tips": "",
+   "red_flags": "not a startup; 'Senior' above fresher level"
   },
   "816268b8963dd95a": {
    "id": "816268b8963dd95a",
@@ -6502,9 +6559,15 @@
    "source": "linkedin",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Series B ($50M, Dec 2025)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 84,
+   "band": "apply_today",
+   "geo_tag": "BLR",
+   "why": "Finance Associate at Digantara — same Series B space-tech co as the 82-scored FBP role, but Associate is exactly the right level for a fresher CA. BLR, real modelling work likely.",
+   "resume_tips": "Lead with the railway-manufacturer leading-indicator forecasting (workforce/premises) — space infra loves ops-driven finance; mention 3-statement modelling.",
+   "red_flags": ""
   },
   "0e734234847c57eb": {
    "id": "0e734234847c57eb",
@@ -6517,9 +6580,15 @@
    "source": "adzuna",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Unfunded small IT services (Suriname ops)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 35,
+   "band": "low",
+   "geo_tag": "BLR",
+   "why": "Small IT-services firm, role is half accountant; not a funded startup, no FP&A depth.",
+   "resume_tips": "",
+   "red_flags": "not a startup; accounting-heavy role"
   },
   "3074a7d5200a346a": {
    "id": "3074a7d5200a346a",
@@ -6532,9 +6601,15 @@
    "source": "adzuna",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Acquired by MTG (2021, ~$360M+earnout), profitable gaming studio",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 56,
+   "band": "optional",
+   "geo_tag": "BLR",
+   "why": "PlaySimple is a profitable BLR gaming studio (MTG-owned) — good FP&A exposure, but plain Manager title is a stretch and it's no longer startup-stage.",
+   "resume_tips": "If applying, emphasise product-mix/variance modelling — gaming FP&A is title-level unit economics.",
+   "red_flags": "Manager title stretch"
   },
   "ba9a47b60ae97ada": {
    "id": "ba9a47b60ae97ada",
@@ -6547,9 +6622,15 @@
    "source": "adzuna",
    "salary": "1440+",
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Listed (SGX: SATS)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 30,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "'FP&A Leader' at a listed Singapore giant — senior leadership role, out of level.",
+   "resume_tips": "",
+   "red_flags": "out of level (Leader)"
   },
   "1818a1041532a4c2": {
    "id": "1818a1041532a4c2",
@@ -6562,9 +6643,15 @@
    "source": "adzuna",
    "salary": "60264+",
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Agency listing (Business Edge Personnel)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 40,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Recruitment-agency listing for an unnamed SG client — can't assess employer, agency-laundered.",
+   "resume_tips": "",
+   "red_flags": "agency listing, employer unknown"
   },
   "659a90368fc6eea0": {
    "id": "659a90368fc6eea0",
@@ -6577,9 +6664,15 @@
    "source": "adzuna",
    "salary": null,
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Swire group (conglomerate)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 25,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "GM-level executive finance partnering — several rungs out of reach.",
+   "resume_tips": "",
+   "red_flags": "out of level (GM)"
   },
   "5f71c1c67c4e28e7": {
    "id": "5f71c1c67c4e28e7",
@@ -6592,9 +6685,15 @@
    "source": "adzuna",
    "salary": "2160+",
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "MNC distributor (RS Group, LSE)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 42,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "MNC FBP leading 3-year planning cycles — lead-level scope, not a startup.",
+   "resume_tips": "",
+   "red_flags": "lead-level scope"
   },
   "895a5643e6f9b3de": {
    "id": "895a5643e6f9b3de",
@@ -6607,9 +6706,15 @@
    "source": "adzuna",
    "salary": "720+",
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Govt-linked (Temasek)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 35,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "SMRT is government-linked transport; role is Lead + Senior Accountant hybrid — wrong level and not a startup.",
+   "resume_tips": "",
+   "red_flags": "out of level"
   },
   "870e938884fc9a2a": {
    "id": "870e938884fc9a2a",
@@ -6622,9 +6727,15 @@
    "source": "adzuna",
    "salary": "1440+",
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "University (NUS)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 42,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "University finance business partnering — stable but zero startup content.",
+   "resume_tips": "",
+   "red_flags": "not a startup"
   },
   "c49fbe455f815024": {
    "id": "c49fbe455f815024",
@@ -6637,9 +6748,15 @@
    "source": "adzuna",
    "salary": "480+",
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Listed (Ping An spinoff, HKEX/NYSE)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 45,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "OneConnect is a listed Ping An fintech spinoff; role is accounting/reporting/cashflow ops for an 'experienced professional' — not strategic finance, not a startup.",
+   "resume_tips": "",
+   "red_flags": "accounting-ops role"
   },
   "3a2b7bfdf6f6c8d0": {
    "id": "3a2b7bfdf6f6c8d0",
@@ -6652,9 +6769,15 @@
    "source": "adzuna",
    "salary": "80000+",
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Agency listing (KennedyPearce)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 38,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "London agency listing for a senior commercial FBP — employer unknown, senior scope, UK visa unlikely via agency.",
+   "resume_tips": "",
+   "red_flags": "agency listing; senior scope"
   },
   "8b188804dbcc77fc": {
    "id": "8b188804dbcc77fc",
@@ -6667,9 +6790,15 @@
    "source": "adzuna",
    "salary": "54607+",
    "remote": false,
-   "stage": null,
-   "status": "new",
-   "first_seen": "2026-07-11"
+   "stage": "Listed (LSE: SDR)",
+   "status": "scored",
+   "first_seen": "2026-07-11",
+   "fit_score": 44,
+   "band": "low",
+   "geo_tag": "ABROAD?VISA",
+   "why": "Schroders FP&A analyst is the right level, but it's a 12-month contract at a listed asset manager — contracts rarely sponsor UK visas.",
+   "resume_tips": "",
+   "red_flags": "12-month contract; visa sponsorship unlikely"
   }
  },
  "last_run": "2026-07-11"

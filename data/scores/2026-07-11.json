@@ -518,5 +518,135 @@
   "why": "Business Finance at a profitable BLR logistics unicorn (rev ₹4,306 Cr FY25) — real unit-economics work. Plain Manager title is a stretch for a fresher CA, hence not 80+.",
   "resume_tips": "Lead with FMCG product-mix variance modelling and the TWC unit-economics model — Porter finance is per-trip contribution math.",
   "red_flags": ""
+ },
+ {
+  "id": "816268b8963dd95a",
+  "fit_score": 84,
+  "band": "apply_today",
+  "geo_tag": "BLR",
+  "stage": "Series B ($50M, Dec 2025)",
+  "why": "Finance Associate at Digantara — same Series B space-tech co as the 82-scored FBP role, but Associate is exactly the right level for a fresher CA. BLR, real modelling work likely.",
+  "resume_tips": "Lead with the railway-manufacturer leading-indicator forecasting (workforce/premises) — space infra loves ops-driven finance; mention 3-statement modelling.",
+  "red_flags": ""
+ },
+ {
+  "id": "031bbb8357afd83b",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Listed MNC (NASDAQ: ADSK)",
+  "why": "Autodesk is a listed MNC, not a startup; Senior Financial Analyst usually wants 3-5 yrs. Solid brand, wrong profile.",
+  "resume_tips": "",
+  "red_flags": "not a startup; 'Senior' above fresher level"
+ },
+ {
+  "id": "3074a7d5200a346a",
+  "fit_score": 56,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Acquired by MTG (2021, ~$360M+earnout), profitable gaming studio",
+  "why": "PlaySimple is a profitable BLR gaming studio (MTG-owned) — good FP&A exposure, but plain Manager title is a stretch and it's no longer startup-stage.",
+  "resume_tips": "If applying, emphasise product-mix/variance modelling — gaming FP&A is title-level unit economics.",
+  "red_flags": "Manager title stretch"
+ },
+ {
+  "id": "0e734234847c57eb",
+  "fit_score": 35,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Unfunded small IT services (Suriname ops)",
+  "why": "Small IT-services firm, role is half accountant; not a funded startup, no FP&A depth.",
+  "resume_tips": "",
+  "red_flags": "not a startup; accounting-heavy role"
+ },
+ {
+  "id": "ba9a47b60ae97ada",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Listed (SGX: SATS)",
+  "why": "'FP&A Leader' at a listed Singapore giant — senior leadership role, out of level.",
+  "resume_tips": "",
+  "red_flags": "out of level (Leader)"
+ },
+ {
+  "id": "1818a1041532a4c2",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Agency listing (Business Edge Personnel)",
+  "why": "Recruitment-agency listing for an unnamed SG client — can't assess employer, agency-laundered.",
+  "resume_tips": "",
+  "red_flags": "agency listing, employer unknown"
+ },
+ {
+  "id": "659a90368fc6eea0",
+  "fit_score": 25,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Swire group (conglomerate)",
+  "why": "GM-level executive finance partnering — several rungs out of reach.",
+  "resume_tips": "",
+  "red_flags": "out of level (GM)"
+ },
+ {
+  "id": "5f71c1c67c4e28e7",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "MNC distributor (RS Group, LSE)",
+  "why": "MNC FBP leading 3-year planning cycles — lead-level scope, not a startup.",
+  "resume_tips": "",
+  "red_flags": "lead-level scope"
+ },
+ {
+  "id": "895a5643e6f9b3de",
+  "fit_score": 35,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Govt-linked (Temasek)",
+  "why": "SMRT is government-linked transport; role is Lead + Senior Accountant hybrid — wrong level and not a startup.",
+  "resume_tips": "",
+  "red_flags": "out of level"
+ },
+ {
+  "id": "870e938884fc9a2a",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "University (NUS)",
+  "why": "University finance business partnering — stable but zero startup content.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "c49fbe455f815024",
+  "fit_score": 45,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Listed (Ping An spinoff, HKEX/NYSE)",
+  "why": "OneConnect is a listed Ping An fintech spinoff; role is accounting/reporting/cashflow ops for an 'experienced professional' — not strategic finance, not a startup.",
+  "resume_tips": "",
+  "red_flags": "accounting-ops role"
+ },
+ {
+  "id": "3a2b7bfdf6f6c8d0",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Agency listing (KennedyPearce)",
+  "why": "London agency listing for a senior commercial FBP — employer unknown, senior scope, UK visa unlikely via agency.",
+  "resume_tips": "",
+  "red_flags": "agency listing; senior scope"
+ },
+ {
+  "id": "8b188804dbcc77fc",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Listed (LSE: SDR)",
+  "why": "Schroders FP&A analyst is the right level, but it's a 12-month contract at a listed asset manager — contracts rarely sponsor UK visas.",
+  "resume_tips": "",
+  "red_flags": "12-month contract; visa sponsorship unlikely"
  }
 ]
