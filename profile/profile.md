@@ -86,3 +86,12 @@ why THIS company (from real research), one line on the TWC model with the takeaw
 ~180 words. No "I hope this email finds you well", no "esteemed organization".
 Positioning: **newly qualified CA with 2 years of Big-4 audit fieldwork** — hungry,
 high-ownership, fast learner. Never inflate seniority, never claim a rank.
+
+**Register (Harsh's feedback, 2026-07-11 — "too formal for startups")**: default to the
+punchy register of his own BiteSpeed mail ("Why BiteSpeed — from a CA who builds AI
+tools for fun"): short sentences, a hook subject with personality, scannable structure
+(he uses "Context - / Me - / Summary -" lines), zero corporate filler like "I'd value
+20 minutes" → prefer "worth a quick chat?". Include his site https://harshbelde.netlify.app/.
+Dial formality up ~20% only when writing straight to a CFO of a late-stage/listed
+company (Porter-type); founders and startup teams always get the casual-direct voice.
+The numbers stay non-negotiable in every register.
