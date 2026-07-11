@@ -6445,6 +6445,36 @@
    "why": "Senior Finance Analyst, DCP EMEA Softlines & Publishing — real business partnering at analyst level; UK visa unclear.",
    "resume_tips": "Consumer-products margin/mix analysis mirrors the FMCG variance work.",
    "red_flags": "not a startup; UK sponsorship unclear"
+  },
+  "7a3256d0a2c143c6": {
+   "id": "7a3256d0a2c143c6",
+   "title": "Business Finance Manager",
+   "company": "Porter",
+   "location": "Bengaluru, Karnataka, India",
+   "url": "https://www.linkedin.com/jobs/view/4431070268/",
+   "posted_at": null,
+   "description": "Business Finance Manager at Porter (tracked retroactively from LinkedIn application confirmation of 2026-07-11; not scraped, so no JD text).",
+   "source": "linkedin",
+   "salary": null,
+   "remote": false,
+   "stage": "Series F ($200M, 2025 — Kedaara + Wellington; ~$1.2B val, profitable FY25)",
+   "status": "applied",
+   "first_seen": "2026-07-11",
+   "fit_score": 72,
+   "band": "apply_this_week",
+   "geo_tag": "BLR",
+   "why": "Business Finance at a profitable BLR logistics unicorn (rev ₹4,306 Cr FY25) — real unit-economics work. Plain Manager title is a stretch for a fresher CA, hence not 80+.",
+   "resume_tips": "Lead with FMCG product-mix variance modelling and the TWC unit-economics model — Porter finance is per-trip contribution math.",
+   "red_flags": "",
+   "applied_on": "2026-07-11",
+   "mail_activity": [
+    {
+     "date": "2026-07-11",
+     "dir": "ack",
+     "who": "jobs-noreply@linkedin.com",
+     "subject": "Your application was sent to Porter"
+    }
+   ]
   }
  },
  "last_run": "2026-07-11"
