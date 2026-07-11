@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 JOBS_DB = ROOT / "data" / "jobs.json"
+XLSX = ROOT / "tracker" / "applications.xlsx"
 OUT = ROOT / "docs" / "index.html"
 REPO = "cheeseRoll/jooo"
 
@@ -19,19 +20,41 @@ FIELDS = ["id", "title", "company", "location", "url", "posted_at", "first_seen"
           "why", "resume_tips", "red_flags"]
 
 
+def tracker_rows():
+    """{job_id: {status_cell}} from applications.xlsx (empty if absent).
+
+    docs/index.html is PUBLIC (GitHub Pages) — never embed contacts, notes, or
+    email addresses here; those live only in the xlsx and Gmail drafts."""
+    if not XLSX.exists():
+        return {}
+    from openpyxl import load_workbook
+    wb = load_workbook(XLSX, read_only=True)
+    rows = {}
+    for r in wb.active.iter_rows(min_row=2, values_only=True):
+        if r[0]:
+            rows[r[0]] = {"status_cell": r[7] or ""}
+    return rows
+
+
 def main():
-    db = json.loads(JOBS_DB.read_text())
+    db = json.loads(JOBS_DB.read_text(encoding="utf-8"))
     jobs = [{**{k: j.get(k) for k in FIELDS},
              "applied_on": j.get("applied_on"), "mailed_on": j.get("mailed_on"),
+             "last_reply": j.get("last_reply"),
+             # public page: mail log without addresses (date/dir/subject only)
+             "mail_activity": [{"date": m.get("date"), "dir": m.get("dir"),
+                                "subject": m.get("subject")}
+                               for m in j.get("mail_activity") or []] or None,
              "desc": (j.get("description") or "")[:400]}
             for j in db["jobs"].values() if j.get("status") != "expired"]
     jobs.sort(key=lambda j: (-(j["fit_score"] or -1), j["posted_at"] or "", j["company"]))
 
     html = TEMPLATE.replace("__JOBS__", json.dumps(jobs, ensure_ascii=False)) \
+                   .replace("__APPS__", json.dumps(tracker_rows(), ensure_ascii=False)) \
                    .replace("__UPDATED__", date.today().isoformat()) \
                    .replace("__REPO__", REPO)
     OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(html)
+    OUT.write_text(html, encoding="utf-8")
     print(f"dashboard: {len(jobs)} jobs → {OUT.relative_to(ROOT)}")
 
 
@@ -69,6 +92,8 @@ h1{font-size:22px;margin:6px 0 2px}
 .sub{color:var(--muted);font-size:13px;margin-bottom:16px}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:16px}
 .tile{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:12px 14px}
+.tile.click{cursor:pointer}
+.tile.click:hover,.tile.on{border-color:var(--accent)}
 .tile .v{font-size:26px;font-weight:650}
 .tile .l{font-size:12px;color:var(--ink2)}
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center}
@@ -103,6 +128,9 @@ summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px}
 .btn.done{border-color:var(--good);color:var(--good-text)}
 .applied-tag{font-size:12px;color:var(--good-text);font-weight:650}
 .empty{color:var(--muted);text-align:center;padding:40px 0}
+.apphead{font-size:14px;color:var(--ink2);margin:4px 0 12px}
+.apphead a{color:var(--accent-ink)}
+.ml{font-size:12.5px;color:var(--ink2);margin:3px 0 0 2px}
 </style></head><body>
 <div class="wrap">
 <h1>Harsh — Job Board</h1>
@@ -121,20 +149,27 @@ summary{cursor:pointer;color:var(--accent-ink);font-size:12.5px}
     <option value="50">50+</option></select>
   <select id="sort"><option value="fit">Sort: fit</option>
     <option value="date">Sort: newest</option></select>
-  <label class="tog"><input type="checkbox" id="hideap" checked> hide applied</label>
+  <select id="st"><option value="notapplied">Not applied</option>
+    <option value="">All statuses</option>
+    <option value="anyapplied">Applied (any)</option>
+    <option value="applied">Applied, mail pending</option>
+    <option value="mailed">Mailed</option>
+    <option value="response">Got response</option></select>
 </div>
 <div id="list"></div>
 </div>
 <script>
 const JOBS=__JOBS__;
+const APPS=__APPS__;
 const REPO="__REPO__";
+let view="board"; // "board" | "apps" — the applied tile toggles
 const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const days=d=>{if(!d)return null;return Math.round((Date.now()-new Date(d))/864e5)};
 const ago=d=>{const n=days(d);return n==null?"":n<=0?"today":n+"d ago"};
 
 // Optimistic status overlay: buttons take effect on this device instantly;
 // the nightly rebuild bakes the real status in from the tracker afterwards.
-const RANK={new:0,scored:0,applied:1,mailed:2};
+const RANK={new:0,scored:0,applied:1,mailed:2,response:3};
 const LS=JSON.parse(localStorage.getItem("jooo-status")||"{}");
 function eff(j){
   const db=RANK[j.status]||0, loc=RANK[LS[j.id]]||0;
@@ -183,6 +218,8 @@ function card(j){
   <div class="acts">
     <a class="btn apply" href="${esc(j.url)}" target="_blank" rel="noopener">Apply ↗</a>
     ${(()=>{const st=eff(j);
+      if(st==="response")
+        return `<span class="applied-tag">✓ applied · ✉ mailed · ↩ reply${j.last_reply?" "+esc(j.last_reply):""}</span>`;
       if(st==="mailed")
         return `<span class="applied-tag">✓ applied · ✉ mailed${j.mailed_on?" "+esc(j.mailed_on):""}</span>`;
       if(st==="applied")
@@ -196,11 +233,15 @@ function tiles(list){
   const fresh=list.filter(j=>days(j.posted_at)!=null&&days(j.posted_at)<=7).length;
   const hot=list.filter(j=>j.fit_score>=80&&(RANK[eff(j)]||0)<1).length;
   const applied=JOBS.filter(j=>(RANK[eff(j)]||0)>=1).length;
-  const mailed=JOBS.filter(j=>eff(j)==="mailed").length;
+  const mailed=JOBS.filter(j=>(RANK[eff(j)]||0)>=2).length;
   document.getElementById("tiles").innerHTML=[
     [list.length,"open roles shown"],[hot,"scored 80+ (apply)"],
-    [fresh,"posted ≤ 7 days"],[applied,`applied (${mailed} mailed)`]]
-    .map(([v,l])=>`<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");}
+    [fresh,"posted ≤ 7 days"],
+    [applied,`applied (${mailed} mailed) — ${view==="apps"?"back to board":"view all"} ›`]]
+    .map(([v,l],i)=>i===3
+      ?`<div class="tile click${view==="apps"?" on":""}" id="apptile" title="all your applications in one place"><div class="v">${v}</div><div class="l">${l}</div></div>`
+      :`<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+  document.getElementById("apptile").onclick=()=>{view=view==="apps"?"board":"apps";render();};}
 function fillCities(){
   const counts={};
   for(const j of JOBS){const c=cityOf(j);counts[c]=(counts[c]||0)+1;}
@@ -210,27 +251,60 @@ function fillCities(){
     const o=document.createElement("option");
     o.value=c;o.textContent=`${c} (${n})`;sel.appendChild(o);}}
 const roleKey=j=>j.company.toLowerCase()+"|"+j.title.toLowerCase().replace(/[^a-z0-9]/g,"");
+function timeline(j){
+  const t=[];
+  if(j.applied_on)t.push("applied "+j.applied_on);
+  if(j.mailed_on)t.push("mailed "+j.mailed_on);
+  if(j.last_reply)t.push("reply "+j.last_reply);
+  return t.length?t.join(" → "):eff(j);}
+function appCard(j){
+  const a=APPS[j.id]||{};
+  const s=j.fit_score;
+  const cls=s>=80?"s80":s>=65?"s65":s>=50?"s50":"";
+  const mail=j.mail_activity||[];
+  return `<div class="card">
+  <div class="row1"><div>
+    <p class="jt">${esc(j.title)}</p>
+    <p class="co">${esc(j.company)}${j.location?" · "+esc(j.location):""}</p></div>
+    <div class="score ${cls}">${s==null?"–":s}<small>fit</small></div></div>
+  <div class="badges">
+    <span class="b geo">${esc(a.status_cell||eff(j))}</span>
+    <span class="b">${esc(timeline(j))}</span></div>
+  ${mail.length?`<details open><summary>Mail activity (${mail.length})</summary>${
+    mail.map(m=>`<div class="ml">${esc(m.date)} ${m.dir==="out"?"→ sent":m.dir==="bounce"?"⚠ bounced":m.dir==="ack"?"· ack":"← reply"} — ${esc(m.subject)}</div>`).join("")}</details>`:""}
+  <p class="meta">contacts &amp; notes live in tracker/applications.xlsx and the Gmail drafts (kept off this public page)</p>
+  <div class="acts"><a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Job posting ↗</a></div>
+  </div>`;}
+function renderApps(){
+  const list=JOBS.filter(j=>(RANK[eff(j)]||0)>=1)
+    .sort((a,b)=>((b.applied_on||b.mailed_on||"")).localeCompare(a.applied_on||a.mailed_on||""));
+  document.getElementById("list").innerHTML=
+    `<p class="apphead">All your applications (${list.length}), newest first — statuses update on the nightly run from Gmail + the tracker.</p>`+
+    (list.length?list.map(appCard).join(""):`<div class="empty">No applications yet.</div>`);}
 function render(){
   const q=document.getElementById("q").value.toLowerCase();
   const geo=document.getElementById("geo").value;
   const city=document.getElementById("city").value;
   const band=+document.getElementById("band").value||0;
-  const hide=document.getElementById("hideap").checked;
+  const st=document.getElementById("st").value;
   const sort=document.getElementById("sort").value;
-  // hide-applied hides the whole role (company+title), so duplicate listings of
+  // "Not applied" hides the whole role (company+title), so duplicate listings of
   // a job he already applied to disappear too
   const appliedKeys=new Set(JOBS.filter(j=>(RANK[eff(j)]||0)>=1).map(roleKey));
   let list=JOBS.filter(j=>
     (!q||(j.title+" "+j.company+" "+j.location).toLowerCase().includes(q))
     &&(!geo||j.geo_tag===geo)&&(!city||cityOf(j)===city)
     &&(!band||(j.fit_score||0)>=band)
-    &&(!hide||!appliedKeys.has(roleKey(j))));
+    &&(st==="notapplied"?!appliedKeys.has(roleKey(j))
+      :st==="anyapplied"?(RANK[eff(j)]||0)>=1
+      :st?eff(j)===st:true));
   if(sort==="date")list=[...list].sort((a,b)=>(b.posted_at||"").localeCompare(a.posted_at||""));
   tiles(list);
+  if(view==="apps"){renderApps();return;}
   document.getElementById("list").innerHTML=
     list.length?list.map(card).join(""):`<div class="empty">Nothing matches — relax a filter.</div>`;}
-for(const id of["q","geo","city","band","sort","hideap"])
-  document.getElementById(id).addEventListener("input",render);
+for(const id of["q","geo","city","band","sort","st"])
+  document.getElementById(id).addEventListener("input",()=>{view="board";render();});
 fillCities();
 render();
 </script></body></html>

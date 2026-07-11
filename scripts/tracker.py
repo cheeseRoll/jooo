@@ -5,10 +5,17 @@
   python3 scripts/tracker.py mark-mailed <job_id>
   python3 scripts/tracker.py set-contacts <job_id> --contacts "Name <a@b.com> (CFO); ..." [--note "..."]
   python3 scripts/tracker.py set-status <job_id> <status>
+  python3 scripts/tracker.py log-mail <job_id> --dir in|out --who "a@b.com" --subject "..." [--date YYYY-MM-DD]
   python3 scripts/tracker.py list
 
 Row lifecycle: applied → "send cover mail" → "cover draft in Gmail" → mailed →
 interview → offer / rejected / no response.
+
+log-mail appends to the job's mail_activity in jobs.json (the Gmail sweep uses it):
+--dir out (Harsh sent a mail) also marks the job mailed if it isn't yet;
+--dir in (a human reply landed) bumps status to "response" and stamps last_reply;
+--dir ack (automated application-received mail) just logs, no status change;
+--dir bounce (delivery failure) logs and flags the xlsx row, no status change.
 """
 import argparse
 import json
@@ -120,6 +127,49 @@ def mark_mailed(job_id):
     print(f"mailed: {job['company']} — {job['title']}")
 
 
+def log_mail(job_id, direction, who, subject, when=None):
+    when = when or date.today().isoformat()
+    db = json.loads(JOBS_DB.read_text())
+    job = db["jobs"].get(job_id)
+    if job is None:
+        raise SystemExit(f"unknown job id {job_id}")
+
+    entry = {"date": when, "dir": direction, "who": who, "subject": subject}
+    log = job.setdefault("mail_activity", [])
+    if any(e.get("date") == when and e.get("dir") == direction
+           and e.get("subject") == subject for e in log):
+        print(f"duplicate — already logged for {job_id}")
+        return
+    log.append(entry)
+
+    wb = _open()
+    ws = wb.active
+    r = _find_row(ws, job_id)
+    if direction == "out" and job.get("status") not in ("mailed", "response"):
+        job["status"] = "mailed"
+        job["mailed_on"] = when
+        if r is None:  # mailed without ever marking applied — create the row too
+            ws.append([job_id, job["company"], job["title"], job["location"],
+                       job.get("fit_score"), job["url"],
+                       job.get("applied_on", when), "", "", "", ""])
+            r = ws.max_row
+        ws.cell(row=r, column=8, value=f"mailed {when}")
+        ws.cell(row=r, column=8).fill = PatternFill("solid", fgColor="CFE2F3")
+    elif direction == "in" and job.get("status") in ("applied", "mailed"):
+        job["status"] = "response"
+        job["last_reply"] = when
+        if r is not None:
+            ws.cell(row=r, column=8, value=f"response {when}")
+            ws.cell(row=r, column=8).fill = PatternFill("solid", fgColor="D9EAD3")
+    elif direction == "bounce" and r is not None:
+        ws.cell(row=r, column=8, value=f"mail bounced {when} — resend!")
+        ws.cell(row=r, column=8).fill = PatternFill("solid", fgColor="F4CCCC")
+    JOBS_DB.write_text(json.dumps(db, indent=1, ensure_ascii=False))
+    wb.save(XLSX)
+    print(f"logged {direction} mail for {job['company']} — {job['title']} "
+          f"(status: {job.get('status')})")
+
+
 def set_status(job_id, status):
     wb = _open()
     ws = wb.active
@@ -147,9 +197,15 @@ if __name__ == "__main__":
     p = sub.add_parser("set-contacts"); p.add_argument("job_id")
     p.add_argument("--contacts", required=True); p.add_argument("--note")
     p = sub.add_parser("set-status"); p.add_argument("job_id"); p.add_argument("status")
+    p = sub.add_parser("log-mail"); p.add_argument("job_id")
+    p.add_argument("--dir", required=True, choices=["in", "out", "ack", "bounce"],
+                   dest="direction")
+    p.add_argument("--who", required=True); p.add_argument("--subject", required=True)
+    p.add_argument("--date")
     a = ap.parse_args()
     {"init": init, "list": list_rows,
      "mark-applied": lambda: mark_applied(a.job_id),
      "mark-mailed": lambda: mark_mailed(a.job_id),
      "set-contacts": lambda: set_contacts(a.job_id, a.contacts, a.note),
-     "set-status": lambda: set_status(a.job_id, a.status)}[a.cmd]()
+     "set-status": lambda: set_status(a.job_id, a.status),
+     "log-mail": lambda: log_mail(a.job_id, a.direction, a.who, a.subject, a.date)}[a.cmd]()

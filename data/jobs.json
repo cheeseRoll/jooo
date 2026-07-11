@@ -21,7 +21,27 @@
    "resume_tips": "Lead with 'CA, first attempt (359/600)' + PwC — no rank claims, the first-attempt + Big-4 combination is the pitch. Mirror 'business finance'/'category P&L'; open with the FMCG product-mix variance bullet.",
    "red_flags": "",
    "applied_on": "2026-07-09",
-   "mailed_on": "2026-07-10"
+   "mailed_on": "2026-07-10",
+   "mail_activity": [
+    {
+     "date": "2026-07-09",
+     "dir": "out",
+     "who": "chandini.seth@meesho.com, abhinav.singhal@meesho.com",
+     "subject": "CA (Big-4, PwC) for the Deputy Manager – Business Finance role"
+    },
+    {
+     "date": "2026-07-09",
+     "dir": "bounce",
+     "who": "mailer-daemon@googlemail.com (bounced: chandini.seth@meesho.com, abhinav.singhal@meesho.com)",
+     "subject": "Delivery Status Notification (Failure) — both recipient addresses rejected (550), resend needed"
+    },
+    {
+     "date": "2026-07-09",
+     "dir": "ack",
+     "who": "no-reply@hire.lever.co",
+     "subject": "Thank you for applying for Deputy Manager - Business Finance at Meesho!"
+    }
+   ]
   },
   "316168ab98b9c563": {
    "id": "316168ab98b9c563",
@@ -134,7 +154,15 @@
    "resume_tips": "Mirror 'marketplace'/'SaaS metrics' language; lead with variance & margin analysis and the fintech performance-analysis bullet. Mention immediate relocation readiness.",
    "red_flags": "listing ~2 months old — verify it's still open",
    "applied_on": "2026-07-09",
-   "mailed_on": "2026-07-10"
+   "mailed_on": "2026-07-10",
+   "mail_activity": [
+    {
+     "date": "2026-07-09",
+     "dir": "out",
+     "who": "jobs@fresha.com",
+     "subject": "Application / CV Submission - Finance & Operations"
+    }
+   ]
   },
   "86c540b88d01d567": {
    "id": "86c540b88d01d567",
@@ -639,7 +667,15 @@
    "why": "Finance Business Partner at Pocket FM — IC business-partnering seat (no team-management ask), Series D consumer audio at scale: content-cohort unit economics, creator payouts, market P&Ls.",
    "resume_tips": "Emphasize cohort/unit-economics from the TWC model (cohort cash burn) and the FMCG product-mix variance work — content economics is the same muscle. Pitch as newly qualified CA with 2 years of Big-4 fieldwork.",
    "red_flags": "",
-   "applied_on": "2026-07-09"
+   "applied_on": "2026-07-09",
+   "mail_activity": [
+    {
+     "date": "2026-07-09",
+     "dir": "ack",
+     "who": "jobs-noreply@linkedin.com",
+     "subject": "Your application was sent to Pocket FM"
+    }
+   ]
   },
   "c354877c14eaa225": {
    "id": "c354877c14eaa225",
@@ -653,14 +689,30 @@
    "salary": null,
    "remote": false,
    "stage": "Pre-Series A ($5.6M total, Peak XV Surge)",
-   "status": "scored",
+   "status": "mailed",
    "first_seen": "2026-07-09",
    "fit_score": 45,
    "band": "low",
    "geo_tag": "BLR",
    "why": "BiteSpeed FP&A — would be a dream first-finance-hire seat ($5M ARR, growing 40-50%), but it's pre-Series A: below your Series B bar.",
    "resume_tips": "If you make an exception: this is the highest-ownership role on the list — you'd build finance from zero.",
-   "red_flags": "TOO_EARLY — pre-Series A, your call"
+   "red_flags": "TOO_EARLY — pre-Series A, your call",
+   "applied_on": "2026-07-11",
+   "mail_activity": [
+    {
+     "date": "2026-07-11",
+     "dir": "out",
+     "who": "talent@bitespeed.co",
+     "subject": "Why BiteSpeed — from a CA who builds AI tools for fun"
+    },
+    {
+     "date": "2026-07-11",
+     "dir": "ack",
+     "who": "jobs-noreply@linkedin.com",
+     "subject": "Your application was sent to BiteSpeed"
+    }
+   ],
+   "mailed_on": "2026-07-11"
   },
   "a348ca0d89dbdaa6": {
    "id": "a348ca0d89dbdaa6",
@@ -829,7 +881,15 @@
    "why": "slice Business Finance Executive — executive-level title is genuinely fresher-friendly (the most realistic startup entry on this list), fintech-turned-bank with real learning depth.",
    "resume_tips": "Highlight the listed-fintech performance analysis (EBITDA compression finding) — directly relevant to a lending book's economics.",
    "red_flags": "",
-   "applied_on": "2026-07-10"
+   "applied_on": "2026-07-10",
+   "mail_activity": [
+    {
+     "date": "2026-07-10",
+     "dir": "ack",
+     "who": "jobs-noreply@linkedin.com",
+     "subject": "Your application was sent to slice"
+    }
+   ]
   },
   "3a3cdf1733c300f5": {
    "id": "3a3cdf1733c300f5",
@@ -851,7 +911,15 @@
    "why": "Business Finance Manager at Cleartrip — real BizFin scope, but a Manager seat at a scaled company typically wants 4-6y; a fresher CA application is a long shot worth one click, not tailoring effort.",
    "resume_tips": "Mirror 'business finance'; the railway forecasting bullet (leading indicators) fits travel demand planning.",
    "red_flags": "Manager title — seniority stretch",
-   "applied_on": "2026-07-10"
+   "applied_on": "2026-07-10",
+   "mail_activity": [
+    {
+     "date": "2026-07-10",
+     "dir": "ack",
+     "who": "jobs-noreply@linkedin.com",
+     "subject": "Your application was sent to Cleartrip"
+    }
+   ]
   },
   "de7ae62676dd63b3": {
    "id": "de7ae62676dd63b3",
@@ -916,7 +984,27 @@
    "resume_tips": "See the Lever listing entry.",
    "red_flags": "duplicate of ATS listing",
    "applied_on": "2026-07-10",
-   "mailed_on": "2026-07-10"
+   "mailed_on": "2026-07-10",
+   "mail_activity": [
+    {
+     "date": "2026-07-09",
+     "dir": "out",
+     "who": "chandini.seth@meesho.com, abhinav.singhal@meesho.com",
+     "subject": "CA (Big-4, PwC) for the Deputy Manager – Business Finance role"
+    },
+    {
+     "date": "2026-07-09",
+     "dir": "bounce",
+     "who": "mailer-daemon@googlemail.com (bounced: chandini.seth@meesho.com, abhinav.singhal@meesho.com)",
+     "subject": "Delivery Status Notification (Failure) — both recipient addresses rejected (550), resend needed"
+    },
+    {
+     "date": "2026-07-09",
+     "dir": "ack",
+     "who": "no-reply@hire.lever.co",
+     "subject": "Thank you for applying for Deputy Manager - Business Finance at Meesho!"
+    }
+   ]
   },
   "e044ca128f39fc6f": {
    "id": "e044ca128f39fc6f",
@@ -5479,14 +5567,23 @@
    "salary": null,
    "remote": false,
    "stage": "Established private lighting/electrical manufacturer",
-   "status": "scored",
+   "status": "applied",
    "first_seen": "2026-07-11",
    "fit_score": 45,
    "band": "low",
    "geo_tag": "BLR",
    "why": "Business Finance Manager at a traditional SME — neither startup nor right level.",
    "resume_tips": "",
-   "red_flags": "not a startup; Manager title stretch"
+   "red_flags": "not a startup; Manager title stretch",
+   "applied_on": "2026-07-10",
+   "mail_activity": [
+    {
+     "date": "2026-07-10",
+     "dir": "ack",
+     "who": "jobs-noreply@linkedin.com",
+     "subject": "Your application was sent to Sturlite India"
+    }
+   ]
   },
   "133ad7435d58cc90": {
    "id": "133ad7435d58cc90",
