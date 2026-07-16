@@ -1,0 +1,392 @@
+[
+ {
+  "id": "a0e9809d5b9eecfb",
+  "fit_score": 78,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Series B ($22M, 2022; SaaS)",
+  "why": "Finance Analyst at Hiver — genuine Series B SaaS (shared-inbox/customer-support tooling), analyst level is exactly right for a fresher CA, real BLR HQ.",
+  "resume_tips": "Lead with Power BI/automation work — SaaS finance teams love dashboarding; mention the AI-assisted PwC workflow.",
+  "red_flags": ""
+ },
+ {
+  "id": "210363124d49b831",
+  "fit_score": 72,
+  "band": "apply_this_week",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Series C-II (crypto/digital assets, formerly Matrixport, $167M+ raised)",
+  "why": "Finance Business Partner at BIT (rebranded Matrixport) Singapore — real growth-stage fintech, IC business-partner scope (no team-management ask), SG EP sponsorship routine.",
+  "resume_tips": "Lead with fintech audit exposure (listed-fintech performance analysis); mention comfort with volatile/complex financial products.",
+  "red_flags": "crypto-adjacent — higher business-model volatility than typical fintech"
+ },
+ {
+  "id": "6ae006d1ed106da9",
+  "fit_score": 66,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Pre-Series C ($7M led by Sony Innovation Fund, $34.8M total)",
+  "why": "FP&A Manager at WeRize — real Bharat-focused fintech at a healthy stage (EBITDA-positive), but Manager title is a stretch for a fresher CA.",
+  "resume_tips": "Lead with the listed-fintech audit work — closest analogue to their lending/insurance economics.",
+  "red_flags": "Manager title — seniority stretch"
+ },
+ {
+  "id": "1f724bb59740eb8a",
+  "fit_score": 58,
+  "band": "optional",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "PE-backed, high-growth (private)",
+  "why": "Group Accountant (FP&A + Financial Reporting) via Altum Consulting — agency-posted but the ad explicitly targets 'Newly Qualified ACA', an unusually good seniority-fit signal for a fresher CA even though UK sponsorship stays uncertain.",
+  "resume_tips": "CA is ACA-equivalent for UK purposes — say so explicitly; lead with Ind AS/reporting depth alongside FP&A.",
+  "red_flags": "agency listing; UK visa sponsorship unclear"
+ },
+ {
+  "id": "1f21ec7db119ee87",
+  "fit_score": 56,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (Sea Group)",
+  "why": "Finance Analyst, Regional BI & Planning at Shopee SG — analyst level fits, huge-scale e-commerce FP&A, SG sponsorship routine; public company, not a startup.",
+  "resume_tips": "Emphasize cross-border/category variance analysis.",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "c87e7f18554fa74e",
+  "fit_score": 54,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Established (RAKBANK, listed UAE bank)",
+  "why": "Financial Analyst, FP&A at RAKBANK — analyst level fits well, UAE sponsorship standard; established bank, not a startup.",
+  "resume_tips": "Lead with the listed-fintech audit exposure — banking-adjacent.",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "0fa944a386c19754",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (Eaton)",
+  "why": "FP&A Analyst at Eaton Dubai — clean analyst-level FP&A, UAE sponsorship standard; industrial MNC, not a startup.",
+  "resume_tips": "Straightforward keyword-mirror application.",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "23a74453a231b50a",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Public (Qualcomm)",
+  "why": "Finance Analyst, Associate at Qualcomm BLR — analyst/associate level fits well; MNC GCC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "b08cc481a57a705a",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Public (Kingfisher — B&Q/Screwfix parent)",
+  "why": "Corporate Centre FP&A Manager at Kingfisher London — Manager title but not senior-manager; large retail conglomerate, not a startup, UK sponsorship at this level uncertain.",
+  "resume_tips": "",
+  "red_flags": "Manager title stretch; UK visa unclear"
+ },
+ {
+  "id": "b04f66db7ad0c6aa",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Public (McDonald's)",
+  "why": "Operations Finance Business Partner at McDonald's London — reasonable level, but huge MNC and UK sponsorship at this level uncertain.",
+  "resume_tips": "",
+  "red_flags": "not a startup; UK visa unclear"
+ },
+ {
+  "id": "912865602a6b78d8",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Honeywell)",
+  "why": "Sr. Finance Analyst at Honeywell BLR — mild seniority stretch, MNC GCC cost-analysis role, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "36e3bff5b238f66c",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Officeworks GCC)",
+  "why": "Senior Finance Analyst at Officeworks' BLR GCC — mild seniority stretch, retail-support MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "9d540bb64438f036",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Established advisory firm (founded 1994)",
+  "why": "FP&A Associate at IMA India — associate level fits well, but IMA is an established business-intelligence/advisory firm (CEO/CFO peer-briefing services), not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "3459cf2021f8c5b9",
+  "fit_score": 45,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Established advisory firm (founded 1994)",
+  "why": "Business Finance Assistant Manager at IMA India — same established advisory firm as their Associate FP&A listing, mild AM-title stretch.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "09e8b811e84d61a5",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Acquired by NIIF (infra investment fund)",
+  "why": "FP&A Specialist at iBUS — now an NIIF infra-fund portfolio company (in-building connectivity infra), not really a growth-stage startup anymore.",
+  "resume_tips": "",
+  "red_flags": "not a growth-stage startup — infra-fund-owned portfolio co"
+ },
+ {
+  "id": "737dd3c6680d804a",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Essentra)",
+  "why": "Regional FP&A Manager at Essentra — Manager title at a plastics-components MNC, same profile as a prior Essentra listing on the board.",
+  "resume_tips": "",
+  "red_flags": "Manager title stretch; not a startup"
+ },
+ {
+  "id": "4f343af297721d31",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private staffing/payroll firm (founded 2018)",
+  "why": "Assistant Manager FP&A at edari (Dubai staffing & payroll services co) — internal finance seat at a services firm, not a growth-tech startup; AM title mild stretch.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "d4972100d6608241",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private (Ascendion, IT services)",
+  "why": "Financial Analyst at Ascendion SG — analyst level fits, but Ascendion is an IT-services company, not a finance-forward startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "a3a1c918fbc30b9a",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Public (Xero, NZ-listed SaaS)",
+  "why": "Senior Strategic Finance Manager at Xero London — strong SaaS brand and real strategic-finance scope, but senior title and UK sponsorship uncertain at this level.",
+  "resume_tips": "If applying: lead with the TWC model — accounting-software company will appreciate genuine modelling chops.",
+  "red_flags": "senior title above fresher ceiling; UK visa unclear"
+ },
+ {
+  "id": "d37f255bb59dd6f7",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (Petrofac, oil & gas services)",
+  "why": "Senior Finance Analyst at Petrofac Sharjah — mild seniority stretch, large O&G services MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "db09c7e9a50b715e",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Established (8,000+ employees, founded 1993)",
+  "why": "Senior Financial Planning Analyst at Group AMANA (construction/steel buildings conglomerate) — senior title, large established firm, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "86e66bee1406becd",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "unclear — likely agency-posted for a manufacturer client",
+  "why": "Senior Financial Analyst, Industrial Manufacturing at 'Wilson' SG — employer identity unclear (reads like a recruiter posting), senior title.",
+  "resume_tips": "",
+  "red_flags": "employer unclear, possibly agency; mild seniority stretch"
+ },
+ {
+  "id": "baeea55bcb2803eb",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public/large private (Al-Futtaim conglomerate)",
+  "why": "Emiratization-focused Senior Financial Analyst at Al-Futtaim — role appears aimed at UAE-national hiring quotas, plus senior title; weak fit for a non-UAE-national applicant.",
+  "resume_tips": "",
+  "red_flags": "Emiratization-focused role — may prioritize UAE nationals; senior title"
+ },
+ {
+  "id": "62c421984d730c24",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Talents Tide is a Dubai recruitment agency)",
+  "why": "Financial Planning & Reporting Analyst via Talents Tide — agency-posted, employer unnamed.",
+  "resume_tips": "",
+  "red_flags": "agency listing, employer unnamed"
+ },
+ {
+  "id": "26cbdb16563b7d8f",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (agency, undisclosed agribusiness employer)",
+  "why": "Finance Business Partner via Finiti Partners — explicitly agency-mediated ('partnering exclusively with a global agribusiness'), employer unnamed.",
+  "resume_tips": "",
+  "red_flags": "agency listing, employer unnamed"
+ },
+ {
+  "id": "56436d92a22c2090",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Robert Half is a staffing agency)",
+  "why": "FP&A Finance Specialist via Robert Half SG — agency posting for an undisclosed law-firm client, ad language implies a senior 'high-calibre' hire despite the Specialist title.",
+  "resume_tips": "",
+  "red_flags": "agency listing; implied seniority mismatch"
+ },
+ {
+  "id": "a818bd713e782f42",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (LMA Recruitment is a staffing agency)",
+  "why": "FP&A Manager, 12-month contract via LMA Recruitment SG — agency, Manager title, fixed-term contract, employer undisclosed.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title stretch; contract role"
+ },
+ {
+  "id": "b44430021b5a55d2",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Dexian is a staffing agency)",
+  "why": "Contract Senior Financial Analyst via Dexian Asia Pacific SG — agency, senior title, contract role, employer undisclosed.",
+  "resume_tips": "",
+  "red_flags": "agency listing; senior title; contract role"
+ },
+ {
+  "id": "c3ca913abafd435a",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (TPP Recruitment is a staffing agency)",
+  "why": "Financial Planning & Analysis Lead via TPP Recruitment London — agency, Lead-level seniority (£80-85k pro rata), 6-month fixed-term contract.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Lead-level seniority stretch; short contract"
+ },
+ {
+  "id": "384ed73371ed23b8",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Goodman Masson is a staffing agency)",
+  "why": "Finance Business Partner — Corporate Services via Goodman Masson London — agency, employer undisclosed (housing/public-sector-adjacent).",
+  "resume_tips": "",
+  "red_flags": "agency listing; employer unnamed"
+ },
+ {
+  "id": "d61888fa3e83a867",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Goodman Masson is a staffing agency)",
+  "why": "Finance Business Partner — Housing Services via Goodman Masson London — same agency as their Corporate Services listing, public-sector-adjacent housing client.",
+  "resume_tips": "",
+  "red_flags": "agency listing; employer unnamed"
+ },
+ {
+  "id": "4414f195cd7722cb",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Venn Group is a staffing agency)",
+  "why": "Finance Business Partner via Venn Group for a London university client — agency-mediated, public-sector-adjacent.",
+  "resume_tips": "",
+  "red_flags": "agency listing; public-sector-adjacent"
+ },
+ {
+  "id": "d12ece2615563765",
+  "fit_score": 36,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Private (Ipsum, facilities management)",
+  "why": "Senior Finance Business Partner at Ipsum (Sidcup) — senior title, facilities-management services firm, not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior title above fresher ceiling; not a startup"
+ },
+ {
+  "id": "c7edf03942e98c96",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Public/large private (Ryan Specialty)",
+  "why": "Senior Finance Business Partner at Ryan Specialty London — US-HQ specialty insurer, senior title.",
+  "resume_tips": "",
+  "red_flags": "senior title above fresher ceiling; not a startup"
+ },
+ {
+  "id": "0ac9035f2ffff8fd",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Private equity-backed (Collinson)",
+  "why": "Senior Finance Business Partner at Collinson (travel/loyalty services) London — senior title.",
+  "resume_tips": "",
+  "red_flags": "senior title above fresher ceiling; not a startup"
+ },
+ {
+  "id": "714342d012e86729",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (The Oyster Partnership is a staffing agency)",
+  "why": "Interim Finance Business Partner via The Oyster Partnership — agency, UK local-authority public-sector interim contract, senior scope.",
+  "resume_tips": "",
+  "red_flags": "agency listing; public-sector interim; senior scope"
+ },
+ {
+  "id": "452ed36e16dd8ad3",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (CY Executive Resourcing is a staffing agency)",
+  "why": "Interim Finance Business Partner via CY Executive Resourcing — agency, NHS public-sector interim contract, senior scope.",
+  "resume_tips": "",
+  "red_flags": "agency listing; public-sector interim; senior scope"
+ },
+ {
+  "id": "673fa8d114e79a39",
+  "fit_score": 28,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Late stage (Funding Circle, UK fintech lender)",
+  "why": "Titled 'Senior Sales Specialist — Business Finance' — this is a sales role, not FP&A/strategic finance; only matched the prefilter on 'business finance' wording.",
+  "resume_tips": "",
+  "red_flags": "not actually a finance role — sales position; senior title"
+ },
+ {
+  "id": "8bf373c8ec4a3cd8",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private (Frasers Hospitality, hospitality conglomerate)",
+  "why": "Titled 'Strategic Finance Leader' but the JD reads 'Senior Manager, Finance' overseeing accounting across a multi-entity hospitality portfolio — senior scope, not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior scope despite title; not a startup"
+ }
+]

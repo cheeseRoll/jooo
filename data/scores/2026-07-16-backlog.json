@@ -1,0 +1,1162 @@
+[
+ {
+  "id": "3b8d12e7b0cce80a",
+  "fit_score": 76,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Late stage (IPO-bound)",
+  "why": "Assistant Manager - Business Finance at Meesho — same CA-heavy BizFin team as their Deputy Manager listing, AM band is a slightly junior but still strong fit.",
+  "resume_tips": "Same pitch as the Deputy Manager role — CA first-attempt + Big-4, category P&L ownership.",
+  "red_flags": ""
+ },
+ {
+  "id": "ee024cceaf762ec6",
+  "fit_score": 76,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Late stage (IPO-bound)",
+  "why": "Same Meesho Assistant Manager - Business Finance role via Lever (older posting, May).",
+  "resume_tips": "Same as the LinkedIn duplicate.",
+  "red_flags": "duplicate listing — older posting, may be stale"
+ },
+ {
+  "id": "d88fff609c9f7358",
+  "fit_score": 74,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Series C (agri-tech)",
+  "why": "Business Finance Partner at Vegrow — Series C agri-supply-chain startup already on the watchlist; IC business-partner scope.",
+  "resume_tips": "Lead with product-mix variance work — agri-commodity margins are volume/price-mix heavy, directly analogous.",
+  "red_flags": ""
+ },
+ {
+  "id": "5e2adcffd1736415",
+  "fit_score": 74,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Series D (₹175 Cr, ₹1,500 Cr valuation; pre-IPO)",
+  "why": "Financial Analyst at Tonbo Imaging — genuine Series D defense-tech unicorn-adjacent (deployed by IDF, US Navy, NATO), analyst level fits well.",
+  "resume_tips": "Lead with the railway-manufacturer forecasting bullet — hardware/defense-program cost tracking is the same muscle.",
+  "red_flags": ""
+ },
+ {
+  "id": "2ca73203dcc7252e",
+  "fit_score": 68,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Late stage (Stripe, elite fintech)",
+  "why": "Financial Analyst, Business F&S at Stripe BLR — very late-stage private fintech, not scrappy-startup DNA anymore, but elite brand + analyst level is a strong CV entry.",
+  "resume_tips": "Stripe screens hard on analytical rigor — quantify every bullet; mention Python automation.",
+  "red_flags": "very late-stage — more 'big tech' than startup learning experience"
+ },
+ {
+  "id": "6ec522d7e70d765c",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Government (Abu Dhabi Dept of Finance)",
+  "why": "Financial Analyst — Real Estate Financing at Abu Dhabi's Department of Finance — government role, foreign-hire uncertain.",
+  "resume_tips": "",
+  "red_flags": "government dept — foreign-hire uncertain"
+ },
+ {
+  "id": "dbdfc72f960df6eb",
+  "fit_score": 68,
+  "band": "apply_this_week",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Series C ($4.5B raised; hyperscale data-center infra)",
+  "why": "Corporate Finance Analyst at DayOne SG — genuinely massive growth-stage data-center infra company riding the AI buildout wave, analyst level fits well, SG sponsorship routine.",
+  "resume_tips": "Lead with the TWC capex/payback model — data-center buildout economics is the same capital-intensity problem.",
+  "red_flags": ""
+ },
+ {
+  "id": "2546b13787b8730c",
+  "fit_score": 64,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Series B ($50M, Dec 2025)",
+  "why": "Business Finance - Assistant Manager at Digantara — same Series B space-tech co already on the board (FBP/Associate roles), AM band real but modest stretch.",
+  "resume_tips": "Same as the other Digantara roles — hardware-cost forecasting angle.",
+  "red_flags": "Manager-adjacent title — mild stretch"
+ },
+ {
+  "id": "67d0bf6583ef8f08",
+  "fit_score": 64,
+  "band": "apply_this_week",
+  "geo_tag": "BLR",
+  "stage": "Series B ($50M, Dec 2025)",
+  "why": "Same Digantara Assistant Manager role via Adzuna (duplicate of the LinkedIn listing).",
+  "resume_tips": "Same as the LinkedIn duplicate.",
+  "red_flags": "duplicate listing"
+ },
+ {
+  "id": "f944191ea009b267",
+  "fit_score": 56,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Institution (IIM Bangalore's incubator)",
+  "why": "Business Finance Manager at NSRCEL, reporting to the CFO — IIM-B's startup incubator, not itself a startup but genuine exposure to many early-stage companies; Manager title mild stretch.",
+  "resume_tips": "Frame as wanting to see the widest possible cross-section of early-stage finance problems.",
+  "red_flags": "Manager title stretch; institution, not a startup itself"
+ },
+ {
+  "id": "3af4d292695c38b6",
+  "fit_score": 56,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Institution (IIM Bangalore's incubator)",
+  "why": "Same NSRCEL Business Finance Manager role via Adzuna (duplicate).",
+  "resume_tips": "Same as the LinkedIn duplicate.",
+  "red_flags": "duplicate listing; Manager title stretch"
+ },
+ {
+  "id": "5ac454368d594a1d",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Seed ($3.93M total, IAN Group led)",
+  "why": "Manager - Business Finance at e-TRNL Energy — genuine cleantech/battery startup but still at seed stage, well below the Series B bar.",
+  "resume_tips": "",
+  "red_flags": "TOO_EARLY — seed stage"
+ },
+ {
+  "id": "4bb9ab8093bf0064",
+  "fit_score": 58,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Impact-JV backed (Temasek, Wavemaker Impact, Breakthrough Energy)",
+  "why": "Business Finance Manager at Rize — agri-climate JV (rice-cultivation decarbonization) backed by credible impact investors; not a classic VC-staged round but real capital and mission-driven growth.",
+  "resume_tips": "Emphasize variance/margin analysis — agri-commodity economics.",
+  "red_flags": "funding structure is an impact JV, not a typical priced round — verify stage before over-investing"
+ },
+ {
+  "id": "4515ae90aacfdbdb",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Established analytics/consulting firm",
+  "why": "Financial Planning Analyst at MathCo — a well-known Indian AI/analytics consulting firm, not really a funded startup; solid analyst level.",
+  "resume_tips": "",
+  "red_flags": "not a startup — established consulting/analytics firm"
+ },
+ {
+  "id": "d96397b8c40ac914",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Late stage (~$5B quick-commerce)",
+  "why": "AD - FP&A at Zepto — 'AD' (Associate Director) is above the fresher band at Zepto's internal levelling; same trade-off as their earlier Senior Manager listing.",
+  "resume_tips": "",
+  "red_flags": "AD title — above fresher ceiling"
+ },
+ {
+  "id": "7836f01dd95335b3",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Established GCC-enablement firm (ANSR)",
+  "why": "Analyst, FP&A - Corporate Functions at ANSR — a GCC-enablement/workforce-services firm, not itself a growth startup; analyst level fits.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "e3ec10870a31401b",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "unclear — small/generic-named company",
+  "why": "Financial Analyst at IPDigital LLC — company identity and stage unclear from the listing; analyst level fits but verify before investing effort.",
+  "resume_tips": "",
+  "red_flags": "company unverifiable — research before applying"
+ },
+ {
+  "id": "453300ec4c21aa0f",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "unclear",
+  "why": "Financial Analyst at RISE Research — company identity and stage unclear from the listing.",
+  "resume_tips": "",
+  "red_flags": "company unverifiable — research before applying"
+ },
+ {
+  "id": "ba4a5a68442f990c",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "unclear",
+  "why": "Financial Analyst at SORP Group Dubai — company identity and stage unclear.",
+  "resume_tips": "",
+  "red_flags": "company unverifiable — research before applying"
+ },
+ {
+  "id": "08ee43a51fc6fffa",
+  "fit_score": 64,
+  "band": "apply_this_week",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Series F (Airwallex)",
+  "why": "Manager, FP&A at Airwallex SG — same Series F fintech as their FP&A Data Manager listing already on the board; Manager title mild stretch.",
+  "resume_tips": "Same as the FP&A Data Manager role — lead with the AI-workflow automation angle.",
+  "red_flags": "Manager title — mild stretch; likely overlaps with an existing Airwallex listing"
+ },
+ {
+  "id": "6fb4708a6336576a",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Hitachi Energy)",
+  "why": "Finance Analyst - CCC at Hitachi Energy BLR — analyst level fits, industrial-conglomerate GCC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "d32ec4116b82f816",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Jenoptik)",
+  "why": "Strategic Finance Analyst at Jenoptik BLR — clean title fit, German optics/photonics MNC GCC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "60accd11d511f30a",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (Griffith Foods)",
+  "why": "FP&A Analyst at Griffith Foods Dubai — food-ingredients MNC, FMCG-adjacent (resonates with his FMCG audit work), analyst level fits, UAE sponsorship standard.",
+  "resume_tips": "Lead with the FMCG product-mix variance bullet — food-ingredients margins are directly analogous.",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "7416904f1038093a",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Established (chemical distribution, Gulf region)",
+  "why": "Junior Financial Analyst at REDA Chemicals Dubai — junior level is a great fit, but a large established distribution company, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "ce94287129e29388",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (Enerpac Tool Group)",
+  "why": "Financial Analyst - FP&A at Enerpac SG — analyst level fits, industrial-tools MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "9b26e80f4311f90e",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private (SharkNinja, consumer products)",
+  "why": "APAC FP&A Manager at SharkNinja SG — Manager title stretch; a lower-fit companion to their FP&A Analyst listing already scored on the board.",
+  "resume_tips": "Apply to the Analyst-level SharkNinja role instead if still open.",
+  "red_flags": "Manager title — seniority stretch"
+ },
+ {
+  "id": "1ca49e699df411fe",
+  "fit_score": 56,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Late stage (o9 Solutions, ~$3.7B valuation)",
+  "why": "Senior Financial Analyst at o9 Solutions BLR — same AI supply-chain-planning unicorn as an earlier board entry; senior-analyst mild stretch.",
+  "resume_tips": "Same as the earlier o9 listing — frame the TWC model as planning-software validation.",
+  "red_flags": "mild seniority stretch; likely duplicate of an existing o9 listing"
+ },
+ {
+  "id": "7957ca6930069672",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (SATS Ltd, aviation services)",
+  "why": "Manager, Finance Business Partner at SATS — Manager title, established aviation-services MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "Manager title stretch; not a startup"
+ },
+ {
+  "id": "b5fdd16c888ec1a1",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (SATS Ltd, aviation services)",
+  "why": "Finance Business Partner Manager, FP&A & Strategy at SATS — 'seasoned' hire language implies more seniority than the title suggests; not a startup.",
+  "resume_tips": "",
+  "red_flags": "implied seniority; not a startup"
+ },
+ {
+  "id": "9edd3e8d577e00a6",
+  "fit_score": 36,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Established (OKX, crypto exchange)",
+  "why": "Senior Finance Manager - Group Consolidation at OKX — senior title, and consolidation/statutory-reporting flavor rather than FP&A/strategic finance.",
+  "resume_tips": "",
+  "red_flags": "senior title; accounting-consolidation flavor, not FP&A"
+ },
+ {
+  "id": "165f5ca25287135f",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Public (JPMorganChase)",
+  "why": "JPMC FP&A Analyst BLR — established bank GCC, analyst level fits.",
+  "resume_tips": "",
+  "red_flags": "not a startup; likely duplicate of an existing JPMC listing"
+ },
+ {
+  "id": "f36338f0e3edeb85",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Public (JPMorganChase)",
+  "why": "JPMC FP&A Associate BLR — established bank GCC, associate level fits.",
+  "resume_tips": "",
+  "red_flags": "not a startup; likely duplicate of an existing JPMC listing"
+ },
+ {
+  "id": "e6f023a48983c2b5",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Public (Qualcomm)",
+  "why": "Finance Analyst at Qualcomm BLR — analyst level fits, MNC GCC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup; likely duplicate of an existing Qualcomm listing"
+ },
+ {
+  "id": "7d2624163b6368b5",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (TotalEnergies)",
+  "why": "FP&A & Economics role at TotalEnergies Dubai — large energy major, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "98a1b677707af473",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (Bridgestone)",
+  "why": "Financial Planning Analyst at Bridgestone EMEA Dubai — analyst level fits, large tire-manufacturing MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "9c79a6d40ac7be18",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (Huhtamaki)",
+  "why": "Senior Financial Analyst - Statutory Reporting at Huhtamaki Dubai — senior title, statutory-reporting flavor (not FP&A), packaging MNC.",
+  "resume_tips": "",
+  "red_flags": "senior title; statutory-reporting flavor, not FP&A"
+ },
+ {
+  "id": "e6fa8861c65dcb17",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (LG Household & Health Care)",
+  "why": "Financial Planning Analyst at LG H&H SG — analyst level fits, Korean consumer-goods conglomerate, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "b3ad67428275914c",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Dexian is a staffing agency)",
+  "why": "Senior Financial Analyst via Dexian SG — same staffing agency and pattern as an existing board entry.",
+  "resume_tips": "",
+  "red_flags": "agency listing; senior title"
+ },
+ {
+  "id": "78db8c71008f5c2d",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (VF Corporation)",
+  "why": "Senior Financial Analyst FP&A at VF Corp (Vans/North Face parent) SG — senior title, large apparel conglomerate, not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior title; not a startup"
+ },
+ {
+  "id": "fe7759ee75802ac1",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (ADM, agribusiness)",
+  "why": "Senior Business Analyst FP&A at ADM BLR — senior title, huge agribusiness commodity trader; commodity-margin work resonates but not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior title; not a startup"
+ },
+ {
+  "id": "9360086270ee96cb",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public (MUFG, Japanese bank)",
+  "why": "Senior Analyst FP&A at MUFG's BLR GCC — senior title, established bank GCC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior title; not a startup"
+ },
+ {
+  "id": "6701f6e41853cfb5",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Officeworks)",
+  "why": "Senior Finance Analyst at Officeworks BLR — same profile as an existing board entry (duplicate posting).",
+  "resume_tips": "",
+  "red_flags": "not a startup; likely duplicate listing"
+ },
+ {
+  "id": "109909b6ff05673b",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Unilever)",
+  "why": "Assistant Finance Manager - FET at Unilever BLR — AM-band fits reasonably, huge FMCG MNC (his audit-FMCG exposure is relevant), not a startup.",
+  "resume_tips": "Lead with the FMCG product-mix variance work — direct industry overlap.",
+  "red_flags": "not a startup; mild Manager-title stretch"
+ },
+ {
+  "id": "c6eef6b198a778ee",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public/large private (Swire Shipping)",
+  "why": "General Manager, Finance Business Partners at Swire Shipping — GM-level title, far above the fresher band.",
+  "resume_tips": "",
+  "red_flags": "GM title — well above fresher ceiling"
+ },
+ {
+  "id": "49740f43332e1c60",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (NTT Data)",
+  "why": "Financial Analyst at NTT SG — analyst level fits, large IT-services MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "c38d9663cdb70337",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (NTT Data)",
+  "why": "Financial Analyst at NTT America's SG office — same MNC as the other NTT listing.",
+  "resume_tips": "",
+  "red_flags": "not a startup; likely duplicate"
+ },
+ {
+  "id": "d40b1471a6564932",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Established (GoNetZero, Sembcorp subsidiary)",
+  "why": "Senior Finance Manager at GoNetZero — senior title, subsidiary of a large established conglomerate (Sembcorp), not an independent startup.",
+  "resume_tips": "",
+  "red_flags": "senior title; conglomerate subsidiary, not a startup"
+ },
+ {
+  "id": "046c0ca8da9efbbc",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Professional body (ISCA)",
+  "why": "Titled 'Strategic Finance Leader' but is actually a Head of Finance role at ISCA (Singapore's accountancy institute) — senior, nonprofit/professional-body, not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior role despite title; nonprofit professional body"
+ },
+ {
+  "id": "072329cf1f43be64",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Established (NETS, national payments consortium)",
+  "why": "Finance Business Partner at NETS SG — established national payments-rail operator (like a Singapore NPCI equivalent), not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "f2aa5fc542e725b1",
+  "fit_score": 54,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (PropertyGuru, SPAC-listed proptech)",
+  "why": "FP&A Analyst at PropertyGuru SG — analyst level fits, established regional proptech (now public), decent tech-company DNA even if past hyper-growth phase.",
+  "resume_tips": "",
+  "red_flags": "past hyper-growth phase — more established than startup now"
+ },
+ {
+  "id": "95cf5b9dde4eda6c",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private (AETOS, security services)",
+  "why": "Executive, Finance (FP&A) at AETOS SG — Executive title is a great fresher-level fit, but AETOS is a security-services company, not a growth-tech startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "9e2a3f6f14a56f17",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Persol is a Japanese staffing agency)",
+  "why": "FP&A & Management Reporting Finance Executive via Persol SG — staffing agency, 6-month maternity-cover contract.",
+  "resume_tips": "",
+  "red_flags": "agency listing; short contract"
+ },
+ {
+  "id": "cb8b887ddb96d87f",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Equifind is a boutique search firm)",
+  "why": "Senior Finance Manager via Equifind — agency-posted for a real-estate investment firm, senior title.",
+  "resume_tips": "",
+  "red_flags": "agency listing; senior title"
+ },
+ {
+  "id": "b96e57d1b779d49b",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Equifind is a boutique search firm)",
+  "why": "FP&A Manager via Equifind — agency, PE-backed hospitality group, 3-6 month contract, Manager title.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title; short contract"
+ },
+ {
+  "id": "058ae1f190bdd2e3",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Public (CMC Markets, listed trading platform)",
+  "why": "FP&A Manager (12-month maternity cover FTC) at CMC Markets — Manager title, fixed-term contract, established fintech, not a startup.",
+  "resume_tips": "",
+  "red_flags": "Manager title; fixed-term contract; not a startup"
+ },
+ {
+  "id": "4924acb346a0eb57",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Established (Fortnum & Mason, luxury retailer)",
+  "why": "Commercial Finance Business Partner at Fortnum & Mason London — established luxury retailer, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "492aa95cf87d92ef",
+  "fit_score": 54,
+  "band": "optional",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "PE + Future Fund backed (~£30M+ raised)",
+  "why": "Finance Business Partner at Black Sheep Coffee London — a genuinely fast-growing coffee chain (50+ UK sites) with a growth story remarkably close to the Third Wave Coffee model he built (new-store economics, cash-burn-to-fund-growth).",
+  "resume_tips": "Lead hard with the TWC model — this is the single closest real-world parallel on the entire board (store breakeven vs. portfolio cash-positive point).",
+  "red_flags": "UK visa sponsorship at this level unconfirmed"
+ },
+ {
+  "id": "4e3bfbdfc3608783",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Reed is a staffing agency)",
+  "why": "Senior Finance Business Partner via Reed — agency, charity-sector client, senior title.",
+  "resume_tips": "",
+  "red_flags": "agency listing; senior title; nonprofit sector"
+ },
+ {
+  "id": "3368f0ccde07c346",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Marc Daniels is a staffing agency)",
+  "why": "Senior Finance Analyst via Marc Daniels London — agency, senior title.",
+  "resume_tips": "",
+  "red_flags": "agency listing; senior title"
+ },
+ {
+  "id": "243d7973d3bedef2",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Established (Citco Group, fund administration)",
+  "why": "Junior Financial Analyst at Citco London — junior title is a genuinely good fresher fit; established fund-administration MNC, not a startup, but the best-fitting level of the UK MNC batch.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "f9c30f46bcfc642a",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Walker Hamill is a staffing agency)",
+  "why": "Interim FP&A Manager via Walker Hamill — agency, Manager title, 3-6 month interim contract.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title; interim contract"
+ },
+ {
+  "id": "1614d20c6819fb16",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (KennedyPearce is a staffing agency)",
+  "why": "International FP&A Manager via KennedyPearce — agency, 'experienced' Manager-level hire.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title"
+ },
+ {
+  "id": "e98167e004e832eb",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (KennedyPearce is a staffing agency)",
+  "why": "Same FP&A Manager role via KennedyPearce (duplicate posting, West London).",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title; duplicate"
+ },
+ {
+  "id": "13f2039678a26074",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (KennedyPearce is a staffing agency)",
+  "why": "Project Finance Manager via KennedyPearce — agency, senior-stakeholder-facing Manager role.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title"
+ },
+ {
+  "id": "068a61d085187b4e",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Panoramic Associates is a staffing agency)",
+  "why": "Interim School Finance Manager via Panoramic — agency, public-sector-adjacent (special education), interim, Manager title.",
+  "resume_tips": "",
+  "red_flags": "agency listing; public-sector-adjacent; interim; Manager title"
+ },
+ {
+  "id": "0132695e3addbcc6",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Pure Resourcing is a staffing agency)",
+  "why": "Business Finance Adviser (SME lending) via Pure Resourcing — agency, salary band implies an experienced hire.",
+  "resume_tips": "",
+  "red_flags": "agency listing"
+ },
+ {
+  "id": "78ec6baa5eaa8db6",
+  "fit_score": 28,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (generic multi-employer agency posting)",
+  "why": "'Finance Analysts / FP&A (All Levels) - UK Wide' via describe.me — a generic multi-employer aggregator posting, not a real single role.",
+  "resume_tips": "",
+  "red_flags": "generic agency/aggregator posting, not a specific role"
+ },
+ {
+  "id": "867658511206240d",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Established (ATG Entertainment, live theatre)",
+  "why": "Interim Senior Finance Business Partner at ATG Entertainment — senior title, interim contract, large entertainment conglomerate, not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior title; interim; not a startup"
+ },
+ {
+  "id": "3c4dc96e760cac91",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Public (Global Fashion Group, DAX-listed)",
+  "why": "Group FP&A Analyst at Global Fashion Group London — analyst level fits, public fashion e-commerce group, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "7c83ac15d57a8423",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Government (A*STAR Research)",
+  "why": "Senior FP&A Manager at A*STAR — Singapore government research agency, senior title, foreign-hire uncertain.",
+  "resume_tips": "",
+  "red_flags": "government agency; senior title; foreign-hire uncertain"
+ },
+ {
+  "id": "4959c51c91475be6",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Quasi-government (NTUC, labour movement)",
+  "why": "Senior Finance Exec at NTUC — Singapore's labour-movement umbrella body, quasi-government, senior title, foreign-hire uncertain.",
+  "resume_tips": "",
+  "red_flags": "quasi-government; senior title; foreign-hire uncertain"
+ },
+ {
+  "id": "d0a21f0999f4b17e",
+  "fit_score": 36,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Salt is a staffing agency)",
+  "why": "Finance Business Partner/Operations via Salt SG — agency listing, employer unnamed.",
+  "resume_tips": "",
+  "red_flags": "agency listing"
+ },
+ {
+  "id": "4ba86604bdda80a3",
+  "fit_score": 36,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Michael Page is a staffing agency)",
+  "why": "Finance Business Partner via Michael Page for a medical-devices client SG — agency-mediated.",
+  "resume_tips": "",
+  "red_flags": "agency listing"
+ },
+ {
+  "id": "8b2f8950681113ab",
+  "fit_score": 36,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Michael Page is a staffing agency)",
+  "why": "Same Finance Business Partner role via Michael Page (duplicate posting).",
+  "resume_tips": "",
+  "red_flags": "agency listing; duplicate"
+ },
+ {
+  "id": "4edee4f9ee41e1d6",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Kerry Consulting is a staffing agency)",
+  "why": "Global Finance Business Partner via Kerry Consulting — agency, infrastructure conglomerate client SG.",
+  "resume_tips": "",
+  "red_flags": "agency listing"
+ },
+ {
+  "id": "c9cc606e1877f59f",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (BeathChapman is a staffing agency)",
+  "why": "Finance Business Partner (Europe Travel) via BeathChapman SG — agency, manufacturer client.",
+  "resume_tips": "",
+  "red_flags": "agency listing"
+ },
+ {
+  "id": "6e25333f5a8dd90f",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (BD, medtech)",
+  "why": "Finance Business Partner (1-year FTC) at BD SG — established medtech MNC, fixed-term contract, not a startup.",
+  "resume_tips": "",
+  "red_flags": "fixed-term contract; not a startup"
+ },
+ {
+  "id": "b0b6e16ef3001317",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (Dentsu, ad conglomerate)",
+  "why": "Senior Commercial Finance Analyst at Dentsu SG — senior title, large ad-holding conglomerate, not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior title; not a startup"
+ },
+ {
+  "id": "261fcc57d90090e8",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (PVH — Tommy Hilfiger/Calvin Klein)",
+  "why": "Strategic Finance Partner: Budgeting & Analysis at PVH SG — decent role fit, large public apparel conglomerate, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "7839fb2a76f94da5",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Quasi-government (Mandai Wildlife, statutory-board-linked)",
+  "why": "Senior Finance Business Partner at Mandai Wildlife Group — senior title, Singapore statutory-board-linked entity, foreign-hire uncertain.",
+  "resume_tips": "",
+  "red_flags": "senior title; quasi-government; foreign-hire uncertain"
+ },
+ {
+  "id": "542a53c69421578f",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (unclear/boutique consulting)",
+  "why": "Commercial Finance Business Partner via HPS Partners SG — boutique consulting/search-firm posting, employer unclear.",
+  "resume_tips": "",
+  "red_flags": "agency-like listing; employer unclear"
+ },
+ {
+  "id": "b007de2d8380fccc",
+  "fit_score": 36,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Salt is a staffing agency)",
+  "why": "Finance Business Partner/Procurement via Salt Digital Recruitment — same agency and role type as an existing listing.",
+  "resume_tips": "",
+  "red_flags": "agency listing; likely duplicate"
+ },
+ {
+  "id": "66e4fa638d705130",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (agency, description itself says 'Salt is hiring...')",
+  "why": "Finance Business Partner/Procurement via Xpand Group — the JD text literally reads 'Salt is hiring...', suggesting a re-posted agency listing.",
+  "resume_tips": "",
+  "red_flags": "agency listing; appears to be a re-post of another agency's ad"
+ },
+ {
+  "id": "32901d32515db276",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (IDEAL-Careerbridge appears to be a staffing/consulting firm)",
+  "why": "'Strategic Finance Leader & Growth Architect' via IDEAL-Careerbridge — vague, fluffy title and agency-like poster; senior scope implied ('shape strategy... align with corporate goals').",
+  "resume_tips": "",
+  "red_flags": "vague/fluffy title; likely agency; senior scope"
+ },
+ {
+  "id": "b3295808b0962932",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Adecco is a staffing agency); public-sector client",
+  "why": "Finance Business Partner via Adecco for a Singapore public-sector agency — agency + public-sector, foreign-hire uncertain.",
+  "resume_tips": "",
+  "red_flags": "agency listing; public-sector client; foreign-hire uncertain"
+ },
+ {
+  "id": "0cbddc4de948bb4c",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Achieve Group is a staffing agency)",
+  "why": "Corporate Finance Manager (Trading & Risk) via Achieve Group SG — agency, 'experienced' Manager-level hire.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title"
+ },
+ {
+  "id": "09ac622e9e15fd5e",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Barza Consulting is a boutique search firm)",
+  "why": "Senior Finance Manager via Barza Consulting Abu Dhabi — agency-like consulting-firm posting, senior title.",
+  "resume_tips": "",
+  "red_flags": "agency-like listing; senior title"
+ },
+ {
+  "id": "f161e1890ccd0889",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "n/a (Michael Page is a staffing agency)",
+  "why": "Regional FP&A Manager via Michael Page SG — agency, Manager title, regional scope implies more seniority.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title"
+ },
+ {
+  "id": "5106b0962c7afddf",
+  "fit_score": 26,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Late stage (Funding Circle, UK fintech lender)",
+  "why": "Senior Business Finance Specialist at Funding Circle — same company as a sales-mislabeled listing already on the board; senior title.",
+  "resume_tips": "",
+  "red_flags": "senior title; verify this is genuinely FP&A and not sales-adjacent like their other listing"
+ },
+ {
+  "id": "8f4899d2e74073bb",
+  "fit_score": 38,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Established (Look Ahead, housing/care provider)",
+  "why": "Finance Business Partner Capital at Look Ahead — same organisation/role type as an existing board entry (Islington), not-for-profit housing provider.",
+  "resume_tips": "",
+  "red_flags": "not a startup; nonprofit-adjacent; likely duplicate"
+ },
+ {
+  "id": "fc1eddb8ae9a4b45",
+  "fit_score": 36,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "NGO (Clean Air Fund)",
+  "why": "Finance Business Partner at Clean Air Fund — a climate-focused NGO, not a startup; genuine mission-driven org but industry mismatch with the stated startup goal.",
+  "resume_tips": "",
+  "red_flags": "NGO/nonprofit, not a startup"
+ },
+ {
+  "id": "50b523fe9bf96676",
+  "fit_score": 36,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Private (The Blair Partnership, talent-management agency)",
+  "why": "FP&A Manager at The Blair Partnership — Manager title, reports to 'Head of Finance - Agency', a talent/entertainment management firm, not a startup.",
+  "resume_tips": "",
+  "red_flags": "Manager title; not a startup"
+ },
+ {
+  "id": "3dfd5b7b1c2dcd50",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Public MNC (Jack Link's / Link Snacks)",
+  "why": "Commercial Finance Manager at Jack Link's — Manager title, large FMCG snack manufacturer; his FMCG audit exposure is relevant even though not a startup.",
+  "resume_tips": "Lead with the FMCG product-mix variance bullet.",
+  "red_flags": "Manager title; not a startup"
+ },
+ {
+  "id": "893960e3ceb53d53",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Arts institution (Royal Academy of Arts)",
+  "why": "Finance Business Partner (6-month FTC) at the Royal Academy of Arts — nonprofit arts institution, fixed-term contract, not a startup.",
+  "resume_tips": "",
+  "red_flags": "nonprofit; fixed-term contract; not a startup"
+ },
+ {
+  "id": "37d76ae91bf12ead",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public (Koufu Group, SGX-listed F&B)",
+  "why": "FP&A Accountant at Koufu Group SG — listed food-court/F&B operator, decent analyst-ish level, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "fecdc322ede78d79",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (FedEx)",
+  "why": "Regional FP&A Analyst at FedEx SG — established logistics MNC, analyst level fits, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "46b99933f35c43ab",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Public MNC (FedEx)",
+  "why": "Same FedEx Regional FP&A Analyst role, different posting date (near-duplicate).",
+  "resume_tips": "",
+  "red_flags": "not a startup; likely duplicate"
+ },
+ {
+  "id": "9556fec8487b6ed8",
+  "fit_score": 56,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private (ExpressVPN, established consumer-tech)",
+  "why": "FP&A Analyst at ExpressVPN SG — well-known consumer-tech brand, analyst level fits well, SG sponsorship routine; established rather than early-stage.",
+  "resume_tips": "",
+  "red_flags": "established company, not early-stage"
+ },
+ {
+  "id": "f38b54ea3742ed5e",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private (MyRepublic, telco challenger)",
+  "why": "FP&A Analyst at MyRepublic SG — regional broadband/telco challenger brand, analyst level fits, SG sponsorship routine.",
+  "resume_tips": "",
+  "red_flags": "scale-up rather than early-stage"
+ },
+ {
+  "id": "69daeba82788e3a3",
+  "fit_score": 52,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Public (JPMorganChase)",
+  "why": "JPMC FP&A Analyst BLR (Core Engineering finance team) — established bank GCC, analyst level fits.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "6efc40fec137fd93",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (ABB)",
+  "why": "FP&A Analyst at ABB BLR — analyst level fits, large industrial MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "0d1bf2957e374ca2",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (ABB)",
+  "why": "Robotics FP&A Specialist at ABB BLR — same MNC, specialist-level role, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "8518f8b598b387fd",
+  "fit_score": 50,
+  "band": "optional",
+  "geo_tag": "BLR",
+  "stage": "Established (MMS, clinical-research data services)",
+  "why": "Business and Finance Analyst at MMS — a data-focused clinical-research services company; analyst level fits, adjacent scientific-services industry.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "66afde1c55f33a92",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public (Amazon)",
+  "why": "Senior Financial Analyst, IN Stores Finance at Amazon BLR — mild seniority stretch, same pattern as other Amazon listings.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "f5425891a8f4a9a0",
+  "fit_score": 46,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public (Amazon)",
+  "why": "Senior Financial Analyst, IN Stores Finance at Amazon BLR — near-duplicate of another Amazon listing.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch; likely duplicate"
+ },
+ {
+  "id": "6f121ca10933f276",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public (Amazon)",
+  "why": "Financial Analyst II, GREF FP&A at Amazon BLR — 'II' suggests mid-level, reasonable fit, MNC not startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "81b2ac01b358e9b2",
+  "fit_score": 48,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (3M)",
+  "why": "Associate Specialist - FP&A Planning Solutions at 3M BLR — associate level fits well, large industrial MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup"
+ },
+ {
+  "id": "734587c5c0e40519",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Established (Promaynov, GE Healthcare-linked advisory)",
+  "why": "FP&A at Promaynov Advisory Services BLR — established advisory/services firm, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup; company scale/stage unclear"
+ },
+ {
+  "id": "e6056eb7ca78f18f",
+  "fit_score": 42,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Cushman & Wakefield)",
+  "why": "Senior FP&A Analyst at Cushman & Wakefield BLR — mild seniority stretch, large real-estate-services MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "not a startup; mild seniority stretch"
+ },
+ {
+  "id": "287d07808579cca5",
+  "fit_score": 34,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private (Ohana Development, real-estate developer)",
+  "why": "Senior FP&A at Ohana Development Abu Dhabi — senior title, real-estate developer, not a startup.",
+  "resume_tips": "",
+  "red_flags": "senior title; not a startup"
+ },
+ {
+  "id": "dcb1bb1489f2aabf",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Private (Ohana Development, real-estate developer)",
+  "why": "Senior FP&A Manager at Ohana Development — same developer, more senior title than the other Ohana listing.",
+  "resume_tips": "",
+  "red_flags": "senior title; not a startup; likely duplicate employer"
+ },
+ {
+  "id": "ebae891aa8d3afa1",
+  "fit_score": 30,
+  "band": "low",
+  "geo_tag": "ABROAD+VISA",
+  "stage": "Late stage (Airalo, eSIM travel-tech unicorn)",
+  "why": "Principal Finance Business Partner at Airalo Dubai — great company (well-funded eSIM unicorn) but 'Principal' is a senior leadership title, far above the fresher band.",
+  "resume_tips": "",
+  "red_flags": "Principal title — well above fresher ceiling"
+ },
+ {
+  "id": "e0f78ee05222a8c6",
+  "fit_score": 40,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "Established (The Key, UK school-leader support services)",
+  "why": "Strategic Finance Manager at The Key Support Services — Manager title, education-sector membership/services org, not a startup.",
+  "resume_tips": "",
+  "red_flags": "Manager title; not a startup"
+ },
+ {
+  "id": "4407bff8ea861593",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (High Finance Limited is a staffing agency)",
+  "why": "Finance Analyst via High Finance Limited — agency, undisclosed global-insurance-business client.",
+  "resume_tips": "",
+  "red_flags": "agency listing; employer unnamed"
+ },
+ {
+  "id": "5ae35f22486be7d7",
+  "fit_score": 32,
+  "band": "low",
+  "geo_tag": "ABROAD?VISA",
+  "stage": "n/a (Hays is a staffing agency)",
+  "why": "FP&A Manager (18-month FTC) via Hays — agency, Manager title, fixed-term contract, insurance-business client.",
+  "resume_tips": "",
+  "red_flags": "agency listing; Manager title; fixed-term contract"
+ },
+ {
+  "id": "8dc2ec9415611342",
+  "fit_score": 44,
+  "band": "low",
+  "geo_tag": "BLR",
+  "stage": "Public MNC (Honeywell)",
+  "why": "Finance Manager at Honeywell Technologies BLR — Manager title stretch, large industrial MNC, not a startup.",
+  "resume_tips": "",
+  "red_flags": "Manager title stretch; not a startup"
+ }
+]
